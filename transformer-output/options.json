@@ -256,6 +256,11 @@
       "type": "fontSizes",
       "description": "Texte de format moyen. Équivalent à 18px."
     },
+    "19": {
+      "value": 18,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 19px."
+    },
     "20": {
       "value": 20,
       "type": "fontSizes",
@@ -272,6 +277,11 @@
       "value": 24,
       "type": "fontSizes",
       "description": "Texte de grand format. Équivalent à 24px."
+    },
+    "26": {
+      "value": 26,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 26px."
     },
     "28": {
       "value": 28,
@@ -379,26 +389,50 @@
       "description": "Pas de surlignage ou autre élément décoratif sur le texte."
     }
   },
-  "brk-opt-size": {
-    "xs": {
+  "brk-opt-size-sm": {
+    "4": {
       "value": 4,
       "type": "sizing",
-      "description": "Taille très petite pour les composants de l'interface."
+      "description": "Taille petite pour les composants de l'interface équivalent à 4 px."
     },
-    "sm": {
+    "8": {
       "value": 8,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface."
+      "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
     },
-    "md": {
+    "14": {
+      "value": 14,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 14 px."
+    },
+    "16": {
       "value": 16,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface."
+      "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
     },
-    "lg": {
+    "20": {
+      "value": 20,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 20 px."
+    }
+  },
+  "brk-opt-size-md": {
+    "24": {
       "value": 24,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
+    },
+    "36": {
+      "value": 36,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+    }
+  },
+  "brk-opt-size-lg": {
+    "180": {
+      "value": 180,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 180 px."
     }
   },
   "brk-opt-border-radius": {
@@ -646,7 +680,7 @@
       }
     }
   },
-  "brk-opt-space-small": {
+  "brk-opt-space-sm": {
     "1": {
       "value": 1,
       "type": "spacing",
@@ -703,11 +737,16 @@
       "description": "Token d'espacement de petite taille équivalent à 0px."
     }
   },
-  "brk-opt-space-medium": {
+  "brk-opt-space-md": {
     "20": {
       "value": 20,
       "type": "spacing",
       "description": "Token d'espacement de taille moyenne équivalent à 20px."
+    },
+    "24": {
+      "value": 24,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 24px."
     },
     "30": {
       "value": 30,
