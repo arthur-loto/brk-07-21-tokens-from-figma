@@ -149,7 +149,7 @@
       "description": "Police à privilégier pour toutes les marques Loto-Québec."
     },
     "brand-moj": {
-      "value": "Druk LQ",
+      "value": "Impact",
       "type": "fontFamilies",
       "description": "Police à utiliser pour la marque Mise-o-jeu"
     }
@@ -194,11 +194,6 @@
     },
     "bold": {
       "value": "Bold",
-      "type": "fontWeights",
-      "description": "Police de caractère gras."
-    },
-    "heavy": {
-      "value": "Heavy",
       "type": "fontWeights",
       "description": "Police de caractère gras."
     }
@@ -292,6 +287,11 @@
       "value": 32,
       "type": "fontSizes",
       "description": "Texte de grand format. Équivalent à 32px."
+    },
+    "36": {
+      "value": 36,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 36px."
     },
     "42": {
       "value": 42,
@@ -400,6 +400,16 @@
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
     },
+    "10": {
+      "value": 10,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 10px."
+    },
+    "12": {
+      "value": 12,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 12px."
+    },
     "14": {
       "value": 14,
       "type": "sizing",
@@ -409,6 +419,11 @@
       "value": 16,
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
+    },
+    "18": {
+      "value": 18,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 18 px."
     },
     "20": {
       "value": 20,
@@ -422,10 +437,50 @@
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
     },
+    "28": {
+      "value": 28,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 28 px."
+    },
+    "30": {
+      "value": 30,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 30 px."
+    },
+    "32": {
+      "value": 32,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 32 px."
+    },
     "36": {
       "value": 36,
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+    },
+    "40": {
+      "value": 40,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 40 px."
+    },
+    "44": {
+      "value": 44,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 44 px."
+    },
+    "48": {
+      "value": 48,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 48 px."
+    },
+    "60": {
+      "value": 60,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 60 px."
+    },
+    "72": {
+      "value": 72,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 72 px."
     }
   },
   "brk-opt-size-lg": {
@@ -433,6 +488,16 @@
       "value": 180,
       "type": "sizing",
       "description": "Taille large pour les composants de l'interface équivalent à 180 px."
+    },
+    "270": {
+      "value": 270,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 270 px."
+    },
+    "320": {
+      "value": 320,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 320 px."
     }
   },
   "brk-opt-border-radius": {
@@ -706,6 +771,11 @@
       "type": "spacing",
       "description": "Token d'espacement de petite taille équivalent à 5px."
     },
+    "6": {
+      "value": 6,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 6px."
+    },
     "8": {
       "value": 8,
       "type": "spacing",
@@ -752,6 +822,16 @@
       "value": 30,
       "type": "spacing",
       "description": "Token d'espacement de taille moyenne équivalent à 30px."
+    },
+    "32": {
+      "value": 32,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 32px."
+    },
+    "40": {
+      "value": 40,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 40 px."
     }
   }
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 17:28:29 GMT
+ * Generated on Thu, 21 Jul 2022 17:56:34 GMT
  */
 
 :root {
@@ -32,7 +32,7 @@
   --brk-opt-color-jel-third: #a6ecff;
   --brk-opt-color-jel-accent: #fdfe8b;
   --brk-opt-font-family-brand-lq: Graphik;
-  --brk-opt-font-family-brand-moj: Druk LQ;
+  --brk-opt-font-family-brand-moj: Impact;
   --brk-opt-line-height-xs: 85%px;
   --brk-opt-line-height-sm: 100%px;
   --brk-opt-line-height-md: 110%px;
@@ -41,7 +41,6 @@
   --brk-opt-font-weight-regular: Regular;
   --brk-opt-font-weight-medium: Medium;
   --brk-opt-font-weight-bold: Bold;
-  --brk-opt-font-weight-heavy: Heavy;
   --brk-opt-font-size-caption-8: 8px;
   --brk-opt-font-size-caption-9: 9px;
   --brk-opt-font-size-caption-10: 10px;
@@ -59,6 +58,7 @@
   --brk-opt-font-size-heading-26: 26px;
   --brk-opt-font-size-heading-28: 28px;
   --brk-opt-font-size-heading-32: 32px;
+  --brk-opt-font-size-heading-36: 36px;
   --brk-opt-font-size-heading-42: 42px;
   --brk-opt-font-size-heading-48: 48px;
   --brk-opt-font-size-display-56: 56px;
@@ -78,12 +78,25 @@
   --brk-opt-text-decoration-none: none;
   --brk-opt-size-sm-4: 4;
   --brk-opt-size-sm-8: 8;
+  --brk-opt-size-sm-10: 10;
+  --brk-opt-size-sm-12: 12;
   --brk-opt-size-sm-14: 14;
   --brk-opt-size-sm-16: 16;
+  --brk-opt-size-sm-18: 18;
   --brk-opt-size-sm-20: 20;
   --brk-opt-size-md-24: 24;
+  --brk-opt-size-md-28: 28;
+  --brk-opt-size-md-30: 30;
+  --brk-opt-size-md-32: 32;
   --brk-opt-size-md-36: 36;
+  --brk-opt-size-md-40: 40;
+  --brk-opt-size-md-44: 44;
+  --brk-opt-size-md-48: 48;
+  --brk-opt-size-md-60: 60;
+  --brk-opt-size-md-72: 72;
   --brk-opt-size-lg-180: 180;
+  --brk-opt-size-lg-270: 270;
+  --brk-opt-size-lg-320: 320;
   --brk-opt-border-radius-none: 0px;
   --brk-opt-border-radius-3xs: 1px;
   --brk-opt-border-radius-2xs: 2px;
@@ -142,6 +155,7 @@
   --brk-opt-space-sm-3: 3px;
   --brk-opt-space-sm-4: 4px;
   --brk-opt-space-sm-5: 5px;
+  --brk-opt-space-sm-6: 6px;
   --brk-opt-space-sm-8: 8px;
   --brk-opt-space-sm-10: 10px;
   --brk-opt-space-sm-12: 12px;
@@ -151,4 +165,6 @@
   --brk-opt-space-md-20: 20px;
   --brk-opt-space-md-24: 24px;
   --brk-opt-space-md-30: 30px;
+  --brk-opt-space-md-32: 32px;
+  --brk-opt-space-md-40: 40px;
 }

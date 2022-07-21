@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 21 Jul 2022 17:28:29 GMT
+// Generated on Thu, 21 Jul 2022 17:56:34 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -38,7 +38,7 @@
 #define BrkOptColorJelThird #a6ecff
 #define BrkOptColorJelAccent #fdfe8b
 #define BrkOptFontFamilyBrandLq Graphik
-#define BrkOptFontFamilyBrandMoj Druk LQ
+#define BrkOptFontFamilyBrandMoj Impact
 #define BrkOptLineHeightXs 85%
 #define BrkOptLineHeightSm 100%
 #define BrkOptLineHeightMd 110%
@@ -47,7 +47,6 @@
 #define BrkOptFontWeightRegular Regular
 #define BrkOptFontWeightMedium Medium
 #define BrkOptFontWeightBold Bold
-#define BrkOptFontWeightHeavy Heavy
 #define BrkOptFontSizeCaption8 8
 #define BrkOptFontSizeCaption9 9
 #define BrkOptFontSizeCaption10 10
@@ -65,6 +64,7 @@
 #define BrkOptFontSizeHeading26 26
 #define BrkOptFontSizeHeading28 28
 #define BrkOptFontSizeHeading32 32
+#define BrkOptFontSizeHeading36 36
 #define BrkOptFontSizeHeading42 42
 #define BrkOptFontSizeHeading48 48
 #define BrkOptFontSizeDisplay56 56
@@ -84,12 +84,25 @@
 #define BrkOptTextDecorationNone none
 #define BrkOptSizeSm4 4
 #define BrkOptSizeSm8 8
+#define BrkOptSizeSm10 10
+#define BrkOptSizeSm12 12
 #define BrkOptSizeSm14 14
 #define BrkOptSizeSm16 16
+#define BrkOptSizeSm18 18
 #define BrkOptSizeSm20 20
 #define BrkOptSizeMd24 24
+#define BrkOptSizeMd28 28
+#define BrkOptSizeMd30 30
+#define BrkOptSizeMd32 32
 #define BrkOptSizeMd36 36
+#define BrkOptSizeMd40 40
+#define BrkOptSizeMd44 44
+#define BrkOptSizeMd48 48
+#define BrkOptSizeMd60 60
+#define BrkOptSizeMd72 72
 #define BrkOptSizeLg180 180
+#define BrkOptSizeLg270 270
+#define BrkOptSizeLg320 320
 #define BrkOptBorderRadiusNone 0
 #define BrkOptBorderRadius3xs 1
 #define BrkOptBorderRadius2xs 2
@@ -148,6 +161,7 @@
 #define BrkOptSpaceSm3 3
 #define BrkOptSpaceSm4 4
 #define BrkOptSpaceSm5 5
+#define BrkOptSpaceSm6 6
 #define BrkOptSpaceSm8 8
 #define BrkOptSpaceSm10 10
 #define BrkOptSpaceSm12 12
@@ -157,4 +171,6 @@
 #define BrkOptSpaceMd20 20
 #define BrkOptSpaceMd24 24
 #define BrkOptSpaceMd30 30
+#define BrkOptSpaceMd32 32
+#define BrkOptSpaceMd40 40
 

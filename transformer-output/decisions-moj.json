@@ -257,11 +257,11 @@
     },
     "tertiary-sm-label": {
       "fontFamily": {
-        "value": "Druk LQ",
+        "value": "Impact",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Heavy",
+        "value": "Regular",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -269,7 +269,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 18,
+        "value": 14,
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -291,11 +291,11 @@
     },
     "tertiary-md-label": {
       "fontFamily": {
-        "value": "Druk LQ",
+        "value": "Impact",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Heavy",
+        "value": "Regular",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -322,28 +322,74 @@
         "value": "uppercase",
         "type": "textCase"
       }
-    }
-  },
-  "brk-button-tertiary-sm": {
-    "padding-top": {
-      "value": 5,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure."
     },
-    "padding-right": {
-      "value": 15,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure."
+    "tertiary-lg-label": {
+      "fontFamily": {
+        "value": "Impact",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 28,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
     },
-    "padding-bottom": {
-      "value": 5,
-      "type": "spacing",
-      "description": "Marge intérieure inférieure."
-    },
-    "padding-left": {
-      "value": 15,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure."
+    "tertiary-xl-label": {
+      "fontFamily": {
+        "value": "Impact",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 32,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
     }
   },
   "brk-button-tertiary": {
@@ -466,479 +512,477 @@
       "value": "transparent",
       "type": "color",
       "description": "Couleur du contour utilisé sur le bouton tertiaire en état en cours."
-    }
-  },
-  "brk-jackpot-hero-2xs": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
+    },
+    "sm": {
+      "padding-vertical": {
+        "value": 5,
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en petit format."
       },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
+      "padding-horizontal": {
+        "value": 15,
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en petit format."
+      }
+    },
+    "md": {
+      "padding-vertical": {
         "value": 16,
-        "type": "fontSize"
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en format moyen."
       },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 22,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "padding-top": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure de la section info secondaire de la carte."
-    },
-    "padding-right": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure à droite de la section info secondaire de la carte."
-    },
-    "padding-bottom": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure inférieure de la section info secondaire de la carte."
-    },
-    "padding-left": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure à gauche de la section info secondaire de la carte."
-    },
-    "body-box-margin-tight": {
-      "value": 1,
-      "type": "spacing",
-      "description": "Marges petites des chiffres du lot."
-    },
-    "body-box-margin-loose": {
-      "value": 4,
-      "type": "spacing",
-      "description": "Marges moyennes des chiffres du lot."
-    },
-    "body-box-padding-top": {
-      "value": 3,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure de la boîte de paragraphe (lot progressif)."
-    },
-    "body-box-padding-right": {
-      "value": 2,
-      "type": "spacing",
-      "description": "Marge intérieure à droite de la boîte de paragraphe (lot progressif)."
-    },
-    "body-box-padding-bottom": {
-      "value": 3,
-      "type": "spacing",
-      "description": "Marge intérieure inférieure de la boîte de paragraphe (lot progressif)."
-    },
-    "body-box-padding-left": {
-      "value": 2,
-      "type": "spacing",
-      "description": "Marge intérieure à gauche de la boîte de paragraphe (lot progressif)."
-    }
-  },
-  "brk-jackpot-hero-xs": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 18,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 24,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-jackpot-hero-sm": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 20,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 28,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-jackpot-hero-md": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 22,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
+      "padding-horizontal": {
         "value": 32,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-jackpot-hero-lg": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 24,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en format moyen."
       }
     },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
+    "lg": {
+      "padding-vertical": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en format large."
       },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 42,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-jackpot-hero-xl": {
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Heavy",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 26,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
+      "padding-horizontal": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en format large."
       }
     },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
+    "xl": {
+      "padding-vertical": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en format extra large."
       },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 48,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
+      "padding-horizontal": {
+        "value": 40,
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en format extra large."
       }
     }
   },
   "brk-jackpot-hero": {
+    "sm": {
+      "heading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 10,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en petit format."
+      },
+      "padding-horizontal": {
+        "value": 10,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en petit format."
+      },
+      "amount-digit-margin": {
+        "value": 1,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en petit format."
+      },
+      "amount-group-margin": {
+        "value": 5,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en petit format."
+      },
+      "height": {
+        "value": 36,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en petit format."
+      },
+      "amount-digit-height": {
+        "value": 20,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en petit format."
+      },
+      "amount-digit-width": {
+        "value": 12,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en petit format."
+      }
+    },
+    "md": {
+      "heading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en format moyen."
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en format moyen."
+      },
+      "amount-digit-margin": {
+        "value": 2,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format moyen."
+      },
+      "amount-group-margin": {
+        "value": 6,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format moyen."
+      },
+      "height": {
+        "value": 60,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format moyen."
+      },
+      "amount-digit-height": {
+        "value": 30,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en format moyen."
+      },
+      "amount-digit-width": {
+        "value": 18,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en format moyen."
+      }
+    },
+    "lg": {
+      "heading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en format large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en format large."
+      },
+      "amount-digit-margin": {
+        "value": 3,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format large."
+      },
+      "amount-group-margin": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format large."
+      },
+      "height": {
+        "value": 72,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format large."
+      },
+      "amount-digit-height": {
+        "value": 40,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en format large."
+      },
+      "amount-digit-width": {
+        "value": 24,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en format large."
+      }
+    },
+    "xl": {
+      "heading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 22,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en format extra large."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en format extra large."
+      },
+      "amount-digit-margin": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format extra large."
+      },
+      "amount-group-margin": {
+        "value": 10,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format extra large."
+      },
+      "height": {
+        "value": 72,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format extra large."
+      },
+      "amount-digit-height": {
+        "value": 44,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en format extra large."
+      },
+      "amount-digit-width": {
+        "value": 28,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en format extra large."
+      }
+    },
     "heading-font-color-standard": {
       "value": "#c9ff00",
       "type": "color",
@@ -969,667 +1013,147 @@
       "type": "color",
       "description": "Couleur du fond du lot sur la carte de jeu sur un fond standard."
     },
-    "body-box-border-radius": {
+    "amount-digit-border-radius": {
       "value": 0,
       "type": "borderRadius",
       "description": "Rayon de la bordure de la boîte qui contient les numéros du lot progressif."
     },
-    "body-box-border-width": {
+    "amount-digit-border-width": {
       "value": 1,
       "type": "borderWidth",
       "description": "Grosseur du contour de la boîte qui contient les numéros du lot progressif."
     }
   },
-  "brk-card-hero-2xs": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 14,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 24,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 12,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "padding-top": {
-      "value": 15,
-      "type": "spacing",
-      "description": "Marge intérieure supérieure de la carte de jeu."
-    },
-    "padding-right": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure à droite de la carte de jeu."
-    },
-    "padding-bottom": {
-      "value": 20,
-      "type": "spacing",
-      "description": "Marge intérieure inférieure de la carte de jeu."
-    },
-    "padding-left": {
-      "value": 10,
-      "type": "spacing",
-      "description": "Marge intérieure à gauche de la carte de jeu."
-    },
-    "heading-margin-right": {
-      "value": 20,
-      "type": "spacing",
-      "description": "Marge à droite du titre dans la carte de jeu."
-    }
-  },
-  "brk-card-hero-xs": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 16,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 28,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 14,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-card-hero-sm": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 18,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 32,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 16,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-card-hero-md": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 20,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 42,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 18,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-card-hero-lg": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 22,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 48,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 20,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
-  "brk-card-hero-xl": {
-    "subheading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 24,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "heading": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 56,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "body": {
-      "fontFamily": {
-        "value": "Druk LQ",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Medium",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 22,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    }
-  },
   "brk-card-hero": {
+    "sm": {
+      "subheading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 9,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Impact",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 8,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 180,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en petit format."
+      },
+      "padding-horizontal": {
+        "value": 10,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en petit format."
+      },
+      "padding-vertical": {
+        "value": 10,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en petit format."
+      },
+      "heading-margin-vertical": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en petit format."
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en petit format."
+      }
+    },
     "heading-font-color-standard": {
       "value": "#ffffff",
       "type": "color",
@@ -1656,29 +1180,14 @@
       "description": "Couleur du contour de la carte de jeu."
     },
     "border-width": {
-      "value": 4,
+      "value": 1,
       "type": "borderWidth",
       "description": "Grosseur du contour de la carte."
     },
-    "border-radius-top-left": {
+    "border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Rayon de bordure supérieur gauche des cartes."
-    },
-    "border-radius-top-right": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure supérieur droit des cartes."
-    },
-    "border-radius-bottom-right": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure inférieur droit des cartes."
-    },
-    "border-radius-bottom-left": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure inférieur gauche des cartes."
+      "description": "Rayon de la bordure des cartes."
     },
     "box-shadow-default-standard": {
       "x": {
@@ -1705,11 +1214,144 @@
         "value": "dropShadow",
         "type": "type"
       }
+    },
+    "md": {
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format moyen."
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format moyen."
+      },
+      "padding-vertical": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format moyen."
+      },
+      "heading-margin-vertical": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format moyen."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format moyen."
+      }
+    },
+    "lg": {
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format large."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format large."
+      }
+    },
+    "xl": {
+      "image-height": {
+        "value": 320,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format extra large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format extra large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format extra large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format extra large."
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format extra large."
+      }
+    },
+    "box-shadow-default-hover": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 7,
+        "type": "y"
+      },
+      "blur": {
+        "value": 29,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "box-shadow-default-active": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 8,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     }
   },
   "brk-doc": {
     "background-color-standard": {
-      "value": "#c9ff00",
+      "value": "#e41f1f",
       "type": "color",
       "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
     },
@@ -1719,26 +1361,11 @@
       "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
     }
   },
-  "brk-card-hero-image": {
-    "border-radius-top-left": {
+  "doc-card-hero": {
+    "image-border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Rayon de bordure supérieur gauche de l'image principale des cartes."
-    },
-    "border-radius-top-right": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure supérieur droit de l'image principale des cartes."
-    },
-    "border-radius-bottom-right": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure inférieur droit de l'image principale des cartes."
-    },
-    "border-radius-bottom-left": {
-      "value": 0,
-      "type": "borderRadius",
-      "description": "Rayon de bordure inférieur gauche de l'image principale des cartes."
+      "description": "TOKEN DE DOCUMENTATION. Rayon de la bordure supérieur de l'image dans les cartes."
     }
   },
   "brk-opt-color-neutral": {
@@ -1891,7 +1518,7 @@
       "description": "Police à privilégier pour toutes les marques Loto-Québec."
     },
     "brand-moj": {
-      "value": "Druk LQ",
+      "value": "Impact",
       "type": "fontFamilies",
       "description": "Police à utiliser pour la marque Mise-o-jeu"
     }
@@ -1936,11 +1563,6 @@
     },
     "bold": {
       "value": "Bold",
-      "type": "fontWeights",
-      "description": "Police de caractère gras."
-    },
-    "heavy": {
-      "value": "Heavy",
       "type": "fontWeights",
       "description": "Police de caractère gras."
     }
@@ -2034,6 +1656,11 @@
       "value": 32,
       "type": "fontSizes",
       "description": "Texte de grand format. Équivalent à 32px."
+    },
+    "36": {
+      "value": 36,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 36px."
     },
     "42": {
       "value": 42,
@@ -2142,6 +1769,16 @@
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
     },
+    "10": {
+      "value": 10,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 10px."
+    },
+    "12": {
+      "value": 12,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 12px."
+    },
     "14": {
       "value": 14,
       "type": "sizing",
@@ -2151,6 +1788,11 @@
       "value": 16,
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
+    },
+    "18": {
+      "value": 18,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 18 px."
     },
     "20": {
       "value": 20,
@@ -2164,10 +1806,50 @@
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
     },
+    "28": {
+      "value": 28,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 28 px."
+    },
+    "30": {
+      "value": 30,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 30 px."
+    },
+    "32": {
+      "value": 32,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 32 px."
+    },
     "36": {
       "value": 36,
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+    },
+    "40": {
+      "value": 40,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 40 px."
+    },
+    "44": {
+      "value": 44,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 44 px."
+    },
+    "48": {
+      "value": 48,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 48 px."
+    },
+    "60": {
+      "value": 60,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 60 px."
+    },
+    "72": {
+      "value": 72,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 72 px."
     }
   },
   "brk-opt-size-lg": {
@@ -2175,6 +1857,16 @@
       "value": 180,
       "type": "sizing",
       "description": "Taille large pour les composants de l'interface équivalent à 180 px."
+    },
+    "270": {
+      "value": 270,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 270 px."
+    },
+    "320": {
+      "value": 320,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 320 px."
     }
   },
   "brk-opt-border-radius": {
@@ -2448,6 +2140,11 @@
       "type": "spacing",
       "description": "Token d'espacement de petite taille équivalent à 5px."
     },
+    "6": {
+      "value": 6,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 6px."
+    },
     "8": {
       "value": 8,
       "type": "spacing",
@@ -2494,6 +2191,16 @@
       "value": 30,
       "type": "spacing",
       "description": "Token d'espacement de taille moyenne équivalent à 30px."
+    },
+    "32": {
+      "value": 32,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 32px."
+    },
+    "40": {
+      "value": 40,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 40 px."
     }
   }
 }

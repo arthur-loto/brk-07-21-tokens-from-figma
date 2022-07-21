@@ -253,74 +253,6 @@
       "type": "opacity",
       "description": "Bouton en état inactif."
     },
-    "tertiary-2xs-label": {
-      "fontFamily": {
-        "value": "Graphik",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Bold",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 9,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "tertiary-xs-label": {
-      "fontFamily": {
-        "value": "Graphik",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Bold",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "85%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 9,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
     "tertiary-sm-label": {
       "fontFamily": {
         "value": "Graphik",
@@ -369,7 +301,75 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 9,
+        "value": 15,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "tertiary-lg-label": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 20,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "tertiary-xl-label": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 24,
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -504,136 +504,7 @@
         "type": "type"
       }
     },
-    "2xs": {
-      "padding-horizontal": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en très petit format."
-      },
-      "padding-vertical": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en très petit format."
-      },
-      "heading-margin-vertical": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en très petit format."
-      },
-      "content-gap": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en très petit format."
-      },
-      "subheading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": 9,
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 9,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "-2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "textCase": {
-          "value": "uppercase",
-          "type": "textCase"
-        }
-      },
-      "heading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 12,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "body": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 10,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "image-height": {
-        "value": 180,
-        "type": "sizing",
-        "description": "Hauteur de l'image de la carte en très petit format."
-      }
-    },
-    "xs": {
+    "sm": {
       "padding-horizontal": {
         "value": 10,
         "type": "spacing",
@@ -762,143 +633,14 @@
         "description": "Hauteur de l'image de la carte en petit format."
       }
     },
-    "sm": {
-      "padding-horizontal": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format régulier."
-      },
-      "padding-vertical": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format régulier."
-      },
-      "heading-margin-vertical": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format régulier."
-      },
-      "content-gap": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format régulier."
-      },
-      "subheading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": 9,
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 9,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "-2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "textCase": {
-          "value": "uppercase",
-          "type": "textCase"
-        }
-      },
-      "heading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 12,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "body": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 10,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "image-height": {
-        "value": 180,
-        "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format régulier."
-      }
-    },
     "md": {
       "padding-horizontal": {
-        "value": 10,
+        "value": 16,
         "type": "spacing",
         "description": "Marges intérieures sur les côtés de la carte de jeu en format moyen."
       },
       "padding-vertical": {
-        "value": 10,
+        "value": 16,
         "type": "spacing",
         "description": "Marges intérieures verticales de la carte de jeu en format moyen."
       },
@@ -908,7 +650,7 @@
         "description": "Marges verticales du titre dans la carte de jeu en format moyen."
       },
       "content-gap": {
-        "value": 16,
+        "value": 24,
         "type": "spacing",
         "description": "Séparation minimale entre les textes et le bouton de la carte en format moyen."
       },
@@ -922,11 +664,11 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": 9,
+          "value": 13,
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 9,
+          "value": 13,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -956,11 +698,11 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "100%",
+          "value": "110%",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": 22,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -994,7 +736,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 10,
+          "value": 13,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -1015,14 +757,279 @@
         }
       },
       "image-height": {
-        "value": 180,
+        "value": 270,
         "type": "sizing",
         "description": "Hauteur de l'image de la carte en format moyen."
       }
+    },
+    "lg": {
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format large."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format large."
+      },
+      "subheading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format large."
+      }
+    },
+    "xl": {
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format extra large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format extra large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format extra large."
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format extra large."
+      },
+      "subheading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 320,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format extra large."
+      }
+    }
+  },
+  "doc-card-hero": {
+    "image-border-radius": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": "TOKEN DE DOCUMENTATION. Rayon de la bordure supérieur de l'image dans les cartes."
     }
   },
   "brk-jackpot-hero": {
-    "xs": {
+    "sm": {
       "content-gap": {
         "value": 16,
         "type": "spacing",
@@ -1127,216 +1134,6 @@
         "description": "Largueur du contenant du montant du gros lot en petit format."
       }
     },
-    "2xs": {
-      "content-gap": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en très petit format."
-      },
-      "padding-horizontal": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en très petit format."
-      },
-      "amount-digit-margin": {
-        "value": 1,
-        "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en très petit format."
-      },
-      "amount-group-margin": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en très petit format."
-      },
-      "heading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 10,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "-2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "body": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Medium",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 12,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "height": {
-        "value": 36,
-        "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en très petit format."
-      },
-      "amount-digit-height": {
-        "value": 20,
-        "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en très petit format."
-      },
-      "amount-digit-width": {
-        "value": 14,
-        "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en très petit format."
-      }
-    },
-    "sm": {
-      "content-gap": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en format régulier."
-      },
-      "padding-horizontal": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en format régulier."
-      },
-      "amount-digit-margin": {
-        "value": 1,
-        "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format régulier."
-      },
-      "amount-group-margin": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format régulier."
-      },
-      "heading": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 10,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "-2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "body": {
-        "fontFamily": {
-          "value": "Graphik",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "Medium",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "100%",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": 12,
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "2%",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": 0,
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "height": {
-        "value": 36,
-        "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format régulier."
-      },
-      "amount-digit-height": {
-        "value": 20,
-        "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en format régulier."
-      },
-      "amount-digit-width": {
-        "value": 14,
-        "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en format régulier."
-      }
-    },
     "md": {
       "content-gap": {
         "value": 16,
@@ -1344,17 +1141,17 @@
         "description": "Séparation minimale entre les textes et le montant du gros lot en format moyen."
       },
       "padding-horizontal": {
-        "value": 10,
+        "value": 16,
         "type": "spacing",
         "description": "Marges intérieures sur les côtés du lot progressif en format moyen."
       },
       "amount-digit-margin": {
-        "value": 1,
+        "value": 2,
         "type": "spacing",
         "description": "Séparation entre les chiffres du lot en format moyen."
       },
       "amount-group-margin": {
-        "value": 4,
+        "value": 5,
         "type": "spacing",
         "description": "Séparation entre les chiffres du lot en format moyen."
       },
@@ -1368,11 +1165,11 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "100%",
+          "value": "110%",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 10,
+          "value": 16,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -1406,7 +1203,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 12,
+          "value": 20,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -1427,19 +1224,229 @@
         }
       },
       "height": {
-        "value": 36,
+        "value": 60,
         "type": "sizing",
         "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format moyen."
       },
       "amount-digit-height": {
-        "value": 20,
+        "value": 28,
         "type": "sizing",
         "description": "Hauteur du contenant du montant du gros lot en format moyen."
       },
       "amount-digit-width": {
-        "value": 14,
+        "value": 20,
         "type": "sizing",
         "description": "Largueur du contenant du montant du gros lot en format moyen."
+      }
+    },
+    "lg": {
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en format large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en format large."
+      },
+      "amount-digit-margin": {
+        "value": 3,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format large."
+      },
+      "amount-group-margin": {
+        "value": 6,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format large."
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Medium",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "height": {
+        "value": 72,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format large."
+      },
+      "amount-digit-height": {
+        "value": 40,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en format large."
+      },
+      "amount-digit-width": {
+        "value": 30,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en format large."
+      }
+    },
+    "xl": {
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le montant du gros lot en format extra large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés du lot progressif en format extra large."
+      },
+      "amount-digit-margin": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format extra large."
+      },
+      "amount-group-margin": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Séparation entre les chiffres du lot en format extra large."
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Medium",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "height": {
+        "value": 72,
+        "type": "sizing",
+        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format extra large."
+      },
+      "amount-digit-height": {
+        "value": 44,
+        "type": "sizing",
+        "description": "Hauteur du contenant du montant du gros lot en format extra large."
+      },
+      "amount-digit-width": {
+        "value": 30,
+        "type": "sizing",
+        "description": "Largueur du contenant du montant du gros lot en format extra large."
       }
     },
     "amount-digit-border-width": {
@@ -1477,26 +1484,14 @@
       "type": "color",
       "description": "Couleur du fond du jackpot de la carte de jeu."
     },
-    "body-box-border-radius": {
-      "value": 2,
+    "amount-digit-border-radius": {
+      "value": 4,
       "type": "borderRadius",
       "description": "Rayon de la bordure de la boîte qui contient les numéros du lot progressif."
     }
   },
   "brk-button-tertiary": {
-    "2xs": {
-      "padding-vertical": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en très petit format."
-      },
-      "padding-horizontal": {
-        "value": 15,
-        "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en très petit format."
-      }
-    },
-    "xs": {
+    "sm": {
       "padding-vertical": {
         "value": 10,
         "type": "spacing",
@@ -1508,28 +1503,40 @@
         "description": "Marges intérieures horizontales du bouton tertiaire en petit format."
       }
     },
-    "sm": {
-      "padding-vertical": {
-        "value": 10,
-        "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en format régulier."
-      },
-      "padding-horizontal": {
-        "value": 15,
-        "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en format régulier."
-      }
-    },
     "md": {
       "padding-vertical": {
-        "value": 10,
+        "value": 16,
         "type": "spacing",
         "description": "Marges intérieures verticales du bouton tertiaire en format moyen."
       },
       "padding-horizontal": {
-        "value": 15,
+        "value": 32,
         "type": "spacing",
         "description": "Marges intérieures horizontales du bouton tertiaire en format moyen."
+      }
+    },
+    "lg": {
+      "padding-vertical": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en format large."
+      },
+      "padding-horizontal": {
+        "value": 32,
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en format large."
+      }
+    },
+    "xl": {
+      "padding-vertical": {
+        "value": 20,
+        "type": "spacing",
+        "description": "Marges intérieures verticales du bouton tertiaire en format extra large."
+      },
+      "padding-horizontal": {
+        "value": 40,
+        "type": "spacing",
+        "description": "Marges intérieures horizontales du bouton tertiaire en format extra large."
       }
     },
     "font-color-default-standard": {
@@ -1815,7 +1822,7 @@
       "description": "Police à privilégier pour toutes les marques Loto-Québec."
     },
     "brand-moj": {
-      "value": "Druk LQ",
+      "value": "Impact",
       "type": "fontFamilies",
       "description": "Police à utiliser pour la marque Mise-o-jeu"
     }
@@ -1860,11 +1867,6 @@
     },
     "bold": {
       "value": "Bold",
-      "type": "fontWeights",
-      "description": "Police de caractère gras."
-    },
-    "heavy": {
-      "value": "Heavy",
       "type": "fontWeights",
       "description": "Police de caractère gras."
     }
@@ -1958,6 +1960,11 @@
       "value": 32,
       "type": "fontSizes",
       "description": "Texte de grand format. Équivalent à 32px."
+    },
+    "36": {
+      "value": 36,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 36px."
     },
     "42": {
       "value": 42,
@@ -2066,6 +2073,16 @@
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
     },
+    "10": {
+      "value": 10,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 10px."
+    },
+    "12": {
+      "value": 12,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 12px."
+    },
     "14": {
       "value": 14,
       "type": "sizing",
@@ -2075,6 +2092,11 @@
       "value": 16,
       "type": "sizing",
       "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
+    },
+    "18": {
+      "value": 18,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface équivalent à 18 px."
     },
     "20": {
       "value": 20,
@@ -2088,10 +2110,50 @@
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
     },
+    "28": {
+      "value": 28,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 28 px."
+    },
+    "30": {
+      "value": 30,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 30 px."
+    },
+    "32": {
+      "value": 32,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 32 px."
+    },
     "36": {
       "value": 36,
       "type": "sizing",
       "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+    },
+    "40": {
+      "value": 40,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 40 px."
+    },
+    "44": {
+      "value": 44,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 44 px."
+    },
+    "48": {
+      "value": 48,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 48 px."
+    },
+    "60": {
+      "value": 60,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 60 px."
+    },
+    "72": {
+      "value": 72,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 72 px."
     }
   },
   "brk-opt-size-lg": {
@@ -2099,6 +2161,16 @@
       "value": 180,
       "type": "sizing",
       "description": "Taille large pour les composants de l'interface équivalent à 180 px."
+    },
+    "270": {
+      "value": 270,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 270 px."
+    },
+    "320": {
+      "value": 320,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface équivalent à 320 px."
     }
   },
   "brk-opt-border-radius": {
@@ -2372,6 +2444,11 @@
       "type": "spacing",
       "description": "Token d'espacement de petite taille équivalent à 5px."
     },
+    "6": {
+      "value": 6,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 6px."
+    },
     "8": {
       "value": 8,
       "type": "spacing",
@@ -2418,6 +2495,16 @@
       "value": 30,
       "type": "spacing",
       "description": "Token d'espacement de taille moyenne équivalent à 30px."
+    },
+    "32": {
+      "value": 32,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 32px."
+    },
+    "40": {
+      "value": 40,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 40 px."
     }
   }
 }
