@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 08 Jul 2022 18:26:44 GMT
+// Generated on Thu, 21 Jul 2022 17:28:29 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -58,9 +58,11 @@
 #define BrkOptFontSizeBody15 15
 #define BrkOptFontSizeBody16 16
 #define BrkOptFontSizeBody18 18
+#define BrkOptFontSizeBody19 18
 #define BrkOptFontSizeBody20 20
 #define BrkOptFontSizeBody22 22
 #define BrkOptFontSizeHeading24 24
+#define BrkOptFontSizeHeading26 26
 #define BrkOptFontSizeHeading28 28
 #define BrkOptFontSizeHeading32 32
 #define BrkOptFontSizeHeading42 42
@@ -80,10 +82,14 @@
 #define BrkOptTextTransformUppercase uppercase
 #define BrkOptTextTransformCapitalize capitalize
 #define BrkOptTextDecorationNone none
-#define BrkOptSizeXs 4
-#define BrkOptSizeSm 8
-#define BrkOptSizeMd 16
-#define BrkOptSizeLg 24
+#define BrkOptSizeSm4 4
+#define BrkOptSizeSm8 8
+#define BrkOptSizeSm14 14
+#define BrkOptSizeSm16 16
+#define BrkOptSizeSm20 20
+#define BrkOptSizeMd24 24
+#define BrkOptSizeMd36 36
+#define BrkOptSizeLg180 180
 #define BrkOptBorderRadiusNone 0
 #define BrkOptBorderRadius3xs 1
 #define BrkOptBorderRadius2xs 2
@@ -137,17 +143,18 @@
 #define BrkOptBoxShadowJelNeutralSmSpread 0
 #define BrkOptBoxShadowJelNeutralSmColor #ffffff
 #define BrkOptBoxShadowJelNeutralSmType dropShadow
-#define BrkOptSpaceSmall1 1
-#define BrkOptSpaceSmall2 2
-#define BrkOptSpaceSmall3 3
-#define BrkOptSpaceSmall4 4
-#define BrkOptSpaceSmall5 5
-#define BrkOptSpaceSmall8 8
-#define BrkOptSpaceSmall10 10
-#define BrkOptSpaceSmall12 12
-#define BrkOptSpaceSmall15 15
-#define BrkOptSpaceSmall16 16
-#define BrkOptSpaceSmallNone 0
-#define BrkOptSpaceMedium20 20
-#define BrkOptSpaceMedium30 30
+#define BrkOptSpaceSm1 1
+#define BrkOptSpaceSm2 2
+#define BrkOptSpaceSm3 3
+#define BrkOptSpaceSm4 4
+#define BrkOptSpaceSm5 5
+#define BrkOptSpaceSm8 8
+#define BrkOptSpaceSm10 10
+#define BrkOptSpaceSm12 12
+#define BrkOptSpaceSm15 15
+#define BrkOptSpaceSm16 16
+#define BrkOptSpaceSmNone 0
+#define BrkOptSpaceMd20 20
+#define BrkOptSpaceMd24 24
+#define BrkOptSpaceMd30 30
 
