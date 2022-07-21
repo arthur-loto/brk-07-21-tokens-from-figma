@@ -1,0 +1,153 @@
+
+//
+// tokens.h
+//
+
+// Do not edit directly
+// Generated on Fri, 08 Jul 2022 18:26:44 GMT
+
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define BrkOptColorNeutral0 #ffffff
+#define BrkOptColorNeutral25 #f9f9f9
+#define BrkOptColorNeutral50 #f2f2f2
+#define BrkOptColorNeutral100 #e6e6e6
+#define BrkOptColorNeutral675 #535353
+#define BrkOptColorNeutral900 #1a1a1a
+#define BrkOptColorNeutral1000 #000000
+#define BrkOptColorNeutralSaturation 0
+#define BrkOptColorNeutralHue 0
+#define BrkOptColorLqMain50 #eaedfa
+#define BrkOptColorLqMain100 #d5dbf6
+#define BrkOptColorLqMain200 #abb6ed
+#define BrkOptColorLqMain500 #2e49d1
+#define BrkOptColorLqMain600 #253aa7
+#define BrkOptColorLqMain650 #203392
+#define BrkOptColorLqMain728 #192872
+#define BrkOptColorLqMain800 #121d54
+#define BrkOptColorLqMain900 #090f2a
+#define BrkOptColorLqMainSaturation 64
+#define BrkOptColorLqMainHue 230
+#define BrkOptColorMojMain #db1f1f
+#define BrkOptColorMojMainWeb #e41f1f
+#define BrkOptColorMojSecond #c9ff00
+#define BrkOptColorJelMain #0b5db7
+#define BrkOptColorJelSecond #24c1ff
+#define BrkOptColorJelThird #a6ecff
+#define BrkOptColorJelAccent #fdfe8b
+#define BrkOptFontFamilyBrandLq Graphik
+#define BrkOptFontFamilyBrandMoj Druk LQ
+#define BrkOptLineHeightXs 85%
+#define BrkOptLineHeightSm 100%
+#define BrkOptLineHeightMd 110%
+#define BrkOptLineHeightLg 120%
+#define BrkOptLineHeightXl 160%
+#define BrkOptFontWeightRegular Regular
+#define BrkOptFontWeightMedium Medium
+#define BrkOptFontWeightBold Bold
+#define BrkOptFontWeightHeavy Heavy
+#define BrkOptFontSizeCaption8 8
+#define BrkOptFontSizeCaption9 9
+#define BrkOptFontSizeCaption10 10
+#define BrkOptFontSizeCaption11 11
+#define BrkOptFontSizeCaption12 12
+#define BrkOptFontSizeCaption13 13
+#define BrkOptFontSizeCaption14 14
+#define BrkOptFontSizeBody15 15
+#define BrkOptFontSizeBody16 16
+#define BrkOptFontSizeBody18 18
+#define BrkOptFontSizeBody20 20
+#define BrkOptFontSizeBody22 22
+#define BrkOptFontSizeHeading24 24
+#define BrkOptFontSizeHeading28 28
+#define BrkOptFontSizeHeading32 32
+#define BrkOptFontSizeHeading42 42
+#define BrkOptFontSizeHeading48 48
+#define BrkOptFontSizeDisplay56 56
+#define BrkOptFontSizeDisplay72 72
+#define BrkOptLetterSpacingTight -2%
+#define BrkOptLetterSpacingRegular 0%
+#define BrkOptLetterSpacingLoose 2%
+#define BrkOptLetterSpacingXLoose 4%
+#define BrkOptParagraphSpacingNone 0
+#define BrkOptParagraphSpacingBody 8%
+#define BrkOptParagraphSpacingHeading 12%
+#define BrkOptParagraphSpacingDisplay 16%
+#define BrkOptTextTransformNone none
+#define BrkOptTextTransformLowercase lowercase
+#define BrkOptTextTransformUppercase uppercase
+#define BrkOptTextTransformCapitalize capitalize
+#define BrkOptTextDecorationNone none
+#define BrkOptSizeXs 4
+#define BrkOptSizeSm 8
+#define BrkOptSizeMd 16
+#define BrkOptSizeLg 24
+#define BrkOptBorderRadiusNone 0
+#define BrkOptBorderRadius3xs 1
+#define BrkOptBorderRadius2xs 2
+#define BrkOptBorderRadiusXs 4
+#define BrkOptBorderRadiusSm 8
+#define BrkOptBorderRadiusMd 16
+#define BrkOptBorderRadiusLg 24
+#define BrkOptBorderWidthNone 0
+#define BrkOptBorderWidthXs 1
+#define BrkOptBorderWidthSm 2
+#define BrkOptBorderWidthMd 4
+#define BrkOptBoxShadowNoneX 0
+#define BrkOptBoxShadowNoneY 0
+#define BrkOptBoxShadowNoneBlur 0
+#define BrkOptBoxShadowNoneSpread 0
+#define BrkOptBoxShadowNoneColor #000000
+#define BrkOptBoxShadowNoneType dropShadow
+#define BrkOptBoxShadowElevationSoftX 0
+#define BrkOptBoxShadowElevationSoftY 2
+#define BrkOptBoxShadowElevationSoftBlur 8
+#define BrkOptBoxShadowElevationSoftSpread 0
+#define BrkOptBoxShadowElevationSoftColor #e6e6e6
+#define BrkOptBoxShadowElevationSoftType dropShadow
+#define BrkOptBoxShadowElevationStrongX 0
+#define BrkOptBoxShadowElevationStrongY 7
+#define BrkOptBoxShadowElevationStrongBlur 29
+#define BrkOptBoxShadowElevationStrongSpread 0
+#define BrkOptBoxShadowElevationStrongColor #e6e6e6
+#define BrkOptBoxShadowElevationStrongType dropShadow
+#define BrkOptBoxShadowJelLqMainSmX 3px
+#define BrkOptBoxShadowJelLqMainSmY 3px
+#define BrkOptBoxShadowJelLqMainSmBlur 0
+#define BrkOptBoxShadowJelLqMainSmSpread 0
+#define BrkOptBoxShadowJelLqMainSmColor #192872
+#define BrkOptBoxShadowJelLqMainSmType dropShadow
+#define BrkOptBoxShadowJelLqMainMdX 5px
+#define BrkOptBoxShadowJelLqMainMdY 5px
+#define BrkOptBoxShadowJelLqMainMdBlur 0
+#define BrkOptBoxShadowJelLqMainMdSpread 0
+#define BrkOptBoxShadowJelLqMainMdColor #192872
+#define BrkOptBoxShadowJelLqMainMdType dropShadow
+#define BrkOptBoxShadowJelJelMainSmX 3px
+#define BrkOptBoxShadowJelJelMainSmY 3px
+#define BrkOptBoxShadowJelJelMainSmBlur 0
+#define BrkOptBoxShadowJelJelMainSmSpread 0
+#define BrkOptBoxShadowJelJelMainSmColor #0b5db7
+#define BrkOptBoxShadowJelJelMainSmType dropShadow
+#define BrkOptBoxShadowJelNeutralSmX 3px
+#define BrkOptBoxShadowJelNeutralSmY 3px
+#define BrkOptBoxShadowJelNeutralSmBlur 0
+#define BrkOptBoxShadowJelNeutralSmSpread 0
+#define BrkOptBoxShadowJelNeutralSmColor #ffffff
+#define BrkOptBoxShadowJelNeutralSmType dropShadow
+#define BrkOptSpaceSmall1 1
+#define BrkOptSpaceSmall2 2
+#define BrkOptSpaceSmall3 3
+#define BrkOptSpaceSmall4 4
+#define BrkOptSpaceSmall5 5
+#define BrkOptSpaceSmall8 8
+#define BrkOptSpaceSmall10 10
+#define BrkOptSpaceSmall12 12
+#define BrkOptSpaceSmall15 15
+#define BrkOptSpaceSmall16 16
+#define BrkOptSpaceSmallNone 0
+#define BrkOptSpaceMedium20 20
+#define BrkOptSpaceMedium30 30
+

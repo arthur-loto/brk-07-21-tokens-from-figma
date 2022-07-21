@@ -1,0 +1,1552 @@
+{
+  "brk-button": {
+    "outline-color-focus-standard": {
+      "value": "#192872",
+      "type": "color",
+      "description": "Couleur du contour utilisé lorsque un composant est sélectionné (focus)."
+    },
+    "outline-color-focus-inverted": {
+      "value": "#abb6ed",
+      "type": "color",
+      "description": "Couleur du contour utilisé lorsque un composant est sélectionné (focus)."
+    },
+    "opacity-disabled": {
+      "value": "50%",
+      "type": "opacity",
+      "description": "Bouton en état inactif."
+    },
+    "primary-border-width": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Contour du bouton primaire."
+    },
+    "secondary-border-width": {
+      "value": 2,
+      "type": "borderWidth",
+      "description": "Contour du bouton phantôme ou secondaire."
+    },
+    "tertiary-border-width": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Contour du bouton tertiaire."
+    },
+    "icon-border-width": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Contour du bouton icône."
+    },
+    "outline-width": {
+      "value": 2,
+      "type": "borderWidth",
+      "description": "Outline du composant en cours."
+    },
+    "tertiary-box-shadow": {
+      "default-standard": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "default-inverted": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "hover-standard": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "hover-inverted": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "active-standard": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "active-inverted": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "focus-standard": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "focus-inverted": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 0,
+          "type": "y"
+        },
+        "blur": {
+          "value": 0,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      }
+    },
+    "border-radius": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de la bordure du composant."
+    }
+  },
+  "brk-button-tertiary": {
+    "label": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "padding-top": {
+      "value": 10,
+      "type": "spacing",
+      "description": "Marge intérieure supérieure."
+    },
+    "padding-right": {
+      "value": 15,
+      "type": "spacing",
+      "description": "Marge intérieure à droite."
+    },
+    "padding-bottom": {
+      "value": 10,
+      "type": "spacing",
+      "description": "Marge intérieure inférieure."
+    },
+    "padding-left": {
+      "value": 15,
+      "type": "spacing",
+      "description": "Marge intérieure à gauche."
+    },
+    "font-color-default-standard": {
+      "value": "#253aa7",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "font-color-default-inverted": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "background-color-default-standard": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "background-color-default-inverted": {
+      "value": "#203392",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "border-color-default-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "border-color-default-inverted": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état par défaut."
+    },
+    "font-color-hover-standard": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état de survol."
+    },
+    "font-color-hover-inverted": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état de survol."
+    },
+    "background-color-hover-standard": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état de survol."
+    },
+    "background-color-hover-inverted": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état de survol."
+    },
+    "border-color-hover-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état de survol."
+    },
+    "border-color-hover-inverted": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état de survol."
+    },
+    "font-color-active-standard": {
+      "value": "#253aa7",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état actif ou enfoncé."
+    },
+    "font-color-active-inverted": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état actif ou enfoncé."
+    },
+    "background-color-active-standard": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état actif ou enfoncé."
+    },
+    "background-color-active-inverted": {
+      "value": "#203392",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état actif ou enfoncé."
+    },
+    "border-color-active-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état active ou enfoncé."
+    },
+    "border-color-active-inverted": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état active ou enfoncé."
+    },
+    "font-color-focus-standard": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état en cours."
+    },
+    "font-color-focus-inverted": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du texte utilisé sur le bouton tertiaire en état en cours."
+    },
+    "background-color-focus-standard": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+    },
+    "background-color-focus-inverted": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+    },
+    "border-color-focus-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état en cours."
+    },
+    "border-color-focus-inverted": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour utilisé sur le bouton tertiaire en état en cours."
+    }
+  },
+  "brk-jackpot-hero": {
+    "heading": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 12,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "body": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 13,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "padding-top": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure supérieure de la section info secondaire de la carte."
+    },
+    "padding-right": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure à droite de la section info secondaire de la carte."
+    },
+    "padding-bottom": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure inférieure de la section info secondaire de la carte."
+    },
+    "padding-left": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure à gauche de la section info secondaire de la carte."
+    },
+    "heading-font-color-standard": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": "Couleur du titre principal du lot sur la carte de jeu."
+    },
+    "body-font-color-standard": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Couleur des chiffres du lot sur la carte de jeu sur un fond inversé."
+    },
+    "body-font-color-inverted": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du fond des chiffres du lot sur la carte de jeu sur un fond inversé."
+    },
+    "body-box-background-color-standard": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du fond du lot sur la carte de jeu sur un fond standard."
+    },
+    "body-box-border-color-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du fond du lot sur la carte de jeu sur un fond standard."
+    },
+    "background-color-standard": {
+      "value": "#121d54",
+      "type": "color",
+      "description": "Couleur du fond du jackpot de la carte de jeu."
+    },
+    "body-box-margin-sm": {
+      "value": 1,
+      "type": "spacing",
+      "description": "Marges moyennes des chiffres du lot."
+    },
+    "body-box-margin-md": {
+      "value": 4,
+      "type": "spacing",
+      "description": "Marges moyennes des chiffres du lot."
+    },
+    "body-box-border-radius": {
+      "value": 1,
+      "type": "borderRadius",
+      "description": "Rayon de la bordure de la boîte qui contient les numéros du lot progressif."
+    },
+    "body-box-border-width": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Grosseur du contour de la boîte qui contient les numéros du lot progressif."
+    }
+  },
+  "brk-card-hero": {
+    "subheading": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 9,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "heading": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "-2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "body": {
+      "fontFamily": {
+        "value": "Graphik",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Medium",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 10,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "heading-font-color-standard": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Couleur du titre principal de la carte de jeu."
+    },
+    "subheading-font-color-standard": {
+      "value": "#192872",
+      "type": "color",
+      "description": "Couleur du surtitre de la carte de jeu."
+    },
+    "body-font-color-standard": {
+      "value": "#192872",
+      "type": "color",
+      "description": "Couleur des paragraphs de la carte de jeu."
+    },
+    "background-color-standard": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Couleur du fond de la carte de jeu."
+    },
+    "border-color-standard": {
+      "value": "transparent",
+      "type": "color",
+      "description": "Couleur du contour de la carte de jeu."
+    },
+    "padding-top": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure supérieure de la carte de jeu."
+    },
+    "padding-right": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure à droite de la carte de jeu."
+    },
+    "padding-bottom": {
+      "value": 20,
+      "type": "spacing",
+      "description": "Marge intérieure inférieure de la carte de jeu."
+    },
+    "padding-left": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge intérieure à gauche de la carte de jeu."
+    },
+    "heading-margin-right": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Marge à droite du titre dans la carte de jeu."
+    },
+    "border-radius-top-left": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure supérieur gauche des cartes."
+    },
+    "border-radius-top-right": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure supérieur droit des cartes."
+    },
+    "border-radius-bottom-right": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure inférieur droit des cartes."
+    },
+    "border-radius-bottom-left": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure inférieur gauche des cartes."
+    },
+    "border-width": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Grosseur du contour de la carte."
+    },
+    "box-shadow-default-standard": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 8,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    }
+  },
+  "brk-doc": {
+    "background-color-standard": {
+      "value": "#f9f9f9",
+      "type": "color",
+      "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
+    },
+    "background-color-inverted": {
+      "value": "#090f2a",
+      "type": "color",
+      "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
+    }
+  },
+  "brk-card-hero-image": {
+    "border-radius-top-left": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure supérieur gauche de l'image principale des cartes."
+    },
+    "border-radius-top-right": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Rayon de bordure supérieur droite de l'image principale des cartes."
+    },
+    "border-radius-bottom-right": {
+      "value": 0,
+      "type": "borderRadius",
+      "description": "Rayon de bordure inférieur droite de l'image principale des cartes."
+    },
+    "border-radius-bottom-left": {
+      "value": 0,
+      "type": "borderRadius",
+      "description": "Rayon de bordure inférieur gauche de l'image principale des cartes."
+    }
+  },
+  "brk-body-box": {
+    "padding-top": {
+      "value": 4,
+      "type": "spacing",
+      "description": "Marge intérieure supérieure de la boîte de paragraphe (lot progressif)."
+    },
+    "padding-right": {
+      "value": 2,
+      "type": "spacing",
+      "description": "Marge intérieure à gauche de la boîte de paragraphe (lot progressif)."
+    },
+    "padding-bottom": {
+      "value": 4,
+      "type": "spacing",
+      "description": "Marge intérieure inférieure de la boîte de paragraphe (lot progressif)."
+    },
+    "padding-left": {
+      "value": 2,
+      "type": "spacing",
+      "description": "Marge intérieure à gauche de la boîte de paragraphe (lot progressif)."
+    }
+  },
+  "brk-opt-color-neutral": {
+    "0": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Cette couleur de la palette neutre équivaut au blanc."
+    },
+    "25": {
+      "value": "#f9f9f9",
+      "type": "color",
+      "description": "Gris très pâle."
+    },
+    "50": {
+      "value": "#f2f2f2",
+      "type": "color",
+      "description": "Gris très pâle."
+    },
+    "100": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": "Gris pâle."
+    },
+    "675": {
+      "value": "#535353",
+      "type": "color",
+      "description": "Gris moyen."
+    },
+    "900": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": "Gris très foncé."
+    },
+    "1000": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Cette couleur de la palette neutre équivaut au noir."
+    },
+    "saturation": {
+      "value": 0,
+      "type": "color",
+      "description": "Valeur correspondante à la saturation selon le modèle de couleur HSL."
+    },
+    "hue": {
+      "value": 0,
+      "type": "color",
+      "description": "Valeur correspondante à la teinte selon le modèle de couleur HSL."
+    }
+  },
+  "brk-opt-color-lq-main": {
+    "50": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 95%."
+    },
+    "100": {
+      "value": "#d5dbf6",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 90%."
+    },
+    "200": {
+      "value": "#abb6ed",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 80%."
+    },
+    "500": {
+      "value": "#2e49d1",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 50%."
+    },
+    "600": {
+      "value": "#253aa7",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 40%."
+    },
+    "650": {
+      "value": "#203392",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 35%."
+    },
+    "728": {
+      "value": "#192872",
+      "type": "color",
+      "description": "Bleu oficiel de Loto-Québec. Le $bleu-lq-728 a un indice de luminosité de 27,25 % à la place de 25 % afin de se rapprocher de la nuance bleu Loto-Québec (#192872)."
+    },
+    "800": {
+      "value": "#121d54",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 20%."
+    },
+    "900": {
+      "value": "#090f2a",
+      "type": "color",
+      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 10%. Cette couleur doit être utilisée à la place du noir pur #000000 sur les interfaces de Loto-Québec."
+    },
+    "saturation": {
+      "value": 64,
+      "type": "color",
+      "description": "Valeur correspondante à la saturation selon le modèle de couleur HSL."
+    },
+    "hue": {
+      "value": 230,
+      "type": "color",
+      "description": "Valeur correspondante à la teinte selon le modèle de couleur HSL."
+    }
+  },
+  "brk-opt-color-moj": {
+    "main": {
+      "value": "#db1f1f",
+      "type": "color",
+      "description": "Rouge original."
+    },
+    "main-web": {
+      "value": "#e41f1f",
+      "type": "color",
+      "description": "Rouge ajusté pour le site web seulement (accessibilité web)."
+    },
+    "second": {
+      "value": "#c9ff00",
+      "type": "color",
+      "description": "Vert MOJ"
+    }
+  },
+  "brk-opt-color-jel": {
+    "main": {
+      "value": "#0b5db7",
+      "type": "color",
+      "description": "Bleu des jeux JEL."
+    },
+    "second": {
+      "value": "#24c1ff",
+      "type": "color",
+      "description": "Bleu éclatant JEL."
+    },
+    "third": {
+      "value": "#a6ecff",
+      "type": "color",
+      "description": "Bleu frais JEL."
+    },
+    "accent": {
+      "value": "#fdfe8b",
+      "type": "color",
+      "description": "Jaune JEL."
+    }
+  },
+  "brk-opt-font-family": {
+    "brand-lq": {
+      "value": "Graphik",
+      "type": "fontFamilies",
+      "description": "Police à privilégier pour toutes les marques Loto-Québec."
+    },
+    "brand-moj": {
+      "value": "Druk LQ",
+      "type": "fontFamilies",
+      "description": "Police à utiliser pour la marque Mise-o-jeu"
+    }
+  },
+  "brk-opt-line-height": {
+    "xs": {
+      "value": "85%",
+      "type": "lineHeights",
+      "description": "Interlignage très serré."
+    },
+    "sm": {
+      "value": "100%",
+      "type": "lineHeights",
+      "description": "Interlignage très serré."
+    },
+    "md": {
+      "value": "110%",
+      "type": "lineHeights",
+      "description": "Interlignage des gros titres."
+    },
+    "lg": {
+      "value": "120%",
+      "type": "lineHeights",
+      "description": "Interlignage des titres."
+    },
+    "xl": {
+      "value": "160%",
+      "type": "lineHeights",
+      "description": "Interlignage des paragraphes."
+    }
+  },
+  "brk-opt-font-weight": {
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights",
+      "description": "Police de caractère régulière."
+    },
+    "medium": {
+      "value": "Medium",
+      "type": "fontWeights",
+      "description": "Police de caractère moyenne."
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "description": "Police de caractère gras."
+    },
+    "heavy": {
+      "value": "Heavy",
+      "type": "fontWeights",
+      "description": "Police de caractère gras."
+    }
+  },
+  "brk-opt-font-size-caption": {
+    "8": {
+      "value": 8,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 8px."
+    },
+    "9": {
+      "value": 9,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 9px."
+    },
+    "10": {
+      "value": 10,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 10px."
+    },
+    "11": {
+      "value": 11,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 11px."
+    },
+    "12": {
+      "value": 12,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 12px."
+    },
+    "13": {
+      "value": 13,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 13px."
+    },
+    "14": {
+      "value": 14,
+      "type": "fontSizes",
+      "description": "Texte de petit format. Équivalent à 14px."
+    }
+  },
+  "brk-opt-font-size-body": {
+    "15": {
+      "value": 15,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 15px."
+    },
+    "16": {
+      "value": 16,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 16px."
+    },
+    "18": {
+      "value": 18,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 18px."
+    },
+    "20": {
+      "value": 20,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 20px."
+    },
+    "22": {
+      "value": 22,
+      "type": "fontSizes",
+      "description": "Texte de format moyen. Équivalent à 22px."
+    }
+  },
+  "brk-opt-font-size-heading": {
+    "24": {
+      "value": 24,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 24px."
+    },
+    "28": {
+      "value": 28,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 28px."
+    },
+    "32": {
+      "value": 32,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 32px."
+    },
+    "42": {
+      "value": 42,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 42px."
+    },
+    "48": {
+      "value": 48,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 48px."
+    }
+  },
+  "brk-opt-font-size-display": {
+    "56": {
+      "value": 56,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 56px."
+    },
+    "72": {
+      "value": 72,
+      "type": "fontSizes",
+      "description": "Texte de grand format. Équivalent à 72px."
+    }
+  },
+  "brk-opt-letter-spacing": {
+    "tight": {
+      "value": "-2%",
+      "type": "letterSpacing",
+      "description": "Interlettrage compresé."
+    },
+    "regular": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "description": "Interlettrage régulier."
+    },
+    "loose": {
+      "value": "2%",
+      "type": "letterSpacing",
+      "description": "Interlettrage étendu."
+    },
+    "x-loose": {
+      "value": "4%",
+      "type": "letterSpacing",
+      "description": "Interlettrage plus étendu."
+    }
+  },
+  "brk-opt-paragraph-spacing": {
+    "none": {
+      "value": 0,
+      "type": "paragraphSpacing",
+      "description": "La séparation entre paragraphes/titres est égale à zéro."
+    },
+    "body": {
+      "value": "8%",
+      "type": "paragraphSpacing",
+      "description": "Séparation entre paragraphes."
+    },
+    "heading": {
+      "value": "12%",
+      "type": "paragraphSpacing",
+      "description": "Séparation entre titres."
+    },
+    "display": {
+      "value": "16%",
+      "type": "paragraphSpacing",
+      "description": "Séparation entre gros titres."
+    }
+  },
+  "brk-opt-text-transform": {
+    "none": {
+      "value": "none",
+      "type": "textCase",
+      "description": " La casse des textes par défaut."
+    },
+    "lowercase": {
+      "value": "lowercase",
+      "type": "textCase",
+      "description": "La casse des textes est en minuscules."
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase",
+      "description": "La casse des textes est en majuscules."
+    },
+    "capitalize": {
+      "value": "capitalize",
+      "type": "textCase",
+      "description": "Le premier caractère des textes est en majuscules."
+    }
+  },
+  "brk-opt-text-decoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration",
+      "description": "Pas de surlignage ou autre élément décoratif sur le texte."
+    }
+  },
+  "brk-opt-size": {
+    "xs": {
+      "value": 4,
+      "type": "sizing",
+      "description": "Taille très petite pour les composants de l'interface."
+    },
+    "sm": {
+      "value": 8,
+      "type": "sizing",
+      "description": "Taille petite pour les composants de l'interface."
+    },
+    "md": {
+      "value": 16,
+      "type": "sizing",
+      "description": "Taille moyenne pour les composants de l'interface."
+    },
+    "lg": {
+      "value": 24,
+      "type": "sizing",
+      "description": "Taille large pour les composants de l'interface."
+    }
+  },
+  "brk-opt-border-radius": {
+    "none": {
+      "value": 0,
+      "type": "borderRadius",
+      "description": "Coins carrés."
+    },
+    "3xs": {
+      "value": 1,
+      "type": "borderRadius",
+      "description": "Coins presque carrés."
+    },
+    "2xs": {
+      "value": 2,
+      "type": "borderRadius",
+      "description": "Coins presque carrés."
+    },
+    "xs": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "Coins légèrement carrés."
+    },
+    "sm": {
+      "value": 8,
+      "type": "borderRadius",
+      "description": "Coins légèrement ronds."
+    },
+    "md": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": "Coins ronds."
+    },
+    "lg": {
+      "value": 24,
+      "type": "borderRadius",
+      "description": "Coins très arrodis."
+    }
+  },
+  "brk-opt-border-width": {
+    "none": {
+      "value": 0,
+      "type": "borderWidth",
+      "description": "Pas de bordure."
+    },
+    "xs": {
+      "value": 1,
+      "type": "borderWidth",
+      "description": "Bordure très fine."
+    },
+    "sm": {
+      "value": 2,
+      "type": "borderWidth",
+      "description": "Bordure fine."
+    },
+    "md": {
+      "value": 4,
+      "type": "borderWidth",
+      "description": "Bordure moyenne."
+    }
+  },
+  "brk-opt-box-shadow": {
+    "none": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 0,
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "elevation-soft": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 8,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "elevation-strong": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 7,
+        "type": "y"
+      },
+      "blur": {
+        "value": 29,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    }
+  },
+  "brk-opt-box-shadow-jel": {
+    "lq-main-sm": {
+      "x": {
+        "value": "3px",
+        "type": "x"
+      },
+      "y": {
+        "value": "3px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#192872",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "lq-main-md": {
+      "x": {
+        "value": "5px",
+        "type": "x"
+      },
+      "y": {
+        "value": "5px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#192872",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "jel-main-sm": {
+      "x": {
+        "value": "3px",
+        "type": "x"
+      },
+      "y": {
+        "value": "3px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#0b5db7",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "neutral-sm": {
+      "x": {
+        "value": "3px",
+        "type": "x"
+      },
+      "y": {
+        "value": "3px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    }
+  },
+  "brk-opt-space-small": {
+    "1": {
+      "value": 1,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 1px."
+    },
+    "2": {
+      "value": 2,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 2px."
+    },
+    "3": {
+      "value": 3,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 3px."
+    },
+    "4": {
+      "value": 4,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 4px."
+    },
+    "5": {
+      "value": 5,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 5px."
+    },
+    "8": {
+      "value": 8,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 8px."
+    },
+    "10": {
+      "value": 10,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 10px."
+    },
+    "12": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 12px."
+    },
+    "15": {
+      "value": 15,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 15px."
+    },
+    "16": {
+      "value": 16,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 16px."
+    },
+    "none": {
+      "value": 0,
+      "type": "spacing",
+      "description": "Token d'espacement de petite taille équivalent à 0px."
+    }
+  },
+  "brk-opt-space-medium": {
+    "20": {
+      "value": 20,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 20px."
+    },
+    "30": {
+      "value": 30,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 30px."
+    }
+  }
+}
