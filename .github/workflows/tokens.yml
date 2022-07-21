@@ -36,7 +36,7 @@ jobs:
         with:
           source-directory: 'build'
           destination-github-username: 'arthur-loto'
-          destination-repository-name: 'brk-07-21-tokens-to-npm'
+          destination-repository-name: 'brk-07-21-tokens-to-npm-'
           target-directory: 'mes_tokens'
           user-email: arthur.rigaud@loto-quebec.com
           target-branch: dev
