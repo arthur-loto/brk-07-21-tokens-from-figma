@@ -84,7 +84,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['moj', 'nav-cat','jel', 'cad'].map(function (brand) {
+['options', 'decisions-lq','decisions-moj','decisions-jel'].map(function (brand) {    
     ['scss', 'css', 'ios'].map(function (platform) {
 
         console.log('\n==============================================');
