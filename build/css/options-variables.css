@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Jul 2022 18:19:31 GMT
+ * Generated on Thu, 28 Jul 2022 22:07:41 GMT
  */
 
 :root {
@@ -10,6 +10,7 @@
   --brk-opt-color-neutral-100: #e6e6e6;
   --brk-opt-color-neutral-675: #535353;
   --brk-opt-color-neutral-900: #1a1a1a;
+  --brk-opt-color-neutral-975: #060606;
   --brk-opt-color-neutral-1000: #000000;
   --brk-opt-color-neutral-saturation: 0;
   --brk-opt-color-neutral-hue: 0;
@@ -27,12 +28,8 @@
   --brk-opt-color-moj-main: #db1f1f;
   --brk-opt-color-moj-main-web: #e41f1f;
   --brk-opt-color-moj-second: #c9ff00;
-  --brk-opt-color-jel-main: #0b5db7;
-  --brk-opt-color-jel-second: #24c1ff;
-  --brk-opt-color-jel-third: #a6ecff;
-  --brk-opt-color-jel-accent: #fdfe8b;
   --brk-opt-font-family-brand-lq: Graphik;
-  --brk-opt-font-family-brand-moj: Impact;
+  --brk-opt-font-family-brand-moj: Roboto Condensed;
   --brk-opt-line-height-xs: 85%px;
   --brk-opt-line-height-sm: 100%px;
   --brk-opt-line-height-md: 110%px;
@@ -41,28 +38,28 @@
   --brk-opt-font-weight-regular: Regular;
   --brk-opt-font-weight-medium: Medium;
   --brk-opt-font-weight-bold: Bold;
-  --brk-opt-font-size-caption-8: 8px;
-  --brk-opt-font-size-caption-9: 9px;
-  --brk-opt-font-size-caption-10: 10px;
-  --brk-opt-font-size-caption-11: 11px;
-  --brk-opt-font-size-caption-12: 12px;
-  --brk-opt-font-size-caption-13: 13px;
-  --brk-opt-font-size-caption-14: 14px;
-  --brk-opt-font-size-body-15: 15px;
-  --brk-opt-font-size-body-16: 16px;
-  --brk-opt-font-size-body-18: 18px;
-  --brk-opt-font-size-body-19: 18px;
-  --brk-opt-font-size-body-20: 20px;
-  --brk-opt-font-size-body-22: 22px;
-  --brk-opt-font-size-heading-24: 24px;
-  --brk-opt-font-size-heading-26: 26px;
-  --brk-opt-font-size-heading-28: 28px;
-  --brk-opt-font-size-heading-32: 32px;
-  --brk-opt-font-size-heading-36: 36px;
-  --brk-opt-font-size-heading-42: 42px;
-  --brk-opt-font-size-heading-48: 48px;
-  --brk-opt-font-size-display-56: 56px;
-  --brk-opt-font-size-display-72: 72px;
+  --brk-opt-font-size-sm-8: 8px;
+  --brk-opt-font-size-sm-9: 9px;
+  --brk-opt-font-size-sm-10: 10px;
+  --brk-opt-font-size-sm-11: 11px;
+  --brk-opt-font-size-sm-12: 12px;
+  --brk-opt-font-size-sm-13: 13px;
+  --brk-opt-font-size-sm-14: 14px;
+  --brk-opt-font-size-md-15: 15px;
+  --brk-opt-font-size-md-16: 16px;
+  --brk-opt-font-size-md-18: 18px;
+  --brk-opt-font-size-md-19: 18px;
+  --brk-opt-font-size-md-20: 20px;
+  --brk-opt-font-size-md-22: 22px;
+  --brk-opt-font-size-lg-24: 24px;
+  --brk-opt-font-size-lg-26: 26px;
+  --brk-opt-font-size-lg-28: 28px;
+  --brk-opt-font-size-lg-32: 32px;
+  --brk-opt-font-size-lg-36: 36px;
+  --brk-opt-font-size-lg-42: 42px;
+  --brk-opt-font-size-lg-48: 48px;
+  --brk-opt-font-size-xl-56: 56px;
+  --brk-opt-font-size-xl-72: 72px;
   --brk-opt-letter-spacing-tight: -2%;
   --brk-opt-letter-spacing-regular: 0%;
   --brk-opt-letter-spacing-loose: 2%;
@@ -114,18 +111,30 @@
   --brk-opt-box-shadow-none-spread: 0;
   --brk-opt-box-shadow-none-color: #000000;
   --brk-opt-box-shadow-none-type: dropShadow;
-  --brk-opt-box-shadow-elevation-soft-x: 0;
-  --brk-opt-box-shadow-elevation-soft-y: 2;
-  --brk-opt-box-shadow-elevation-soft-blur: 8;
-  --brk-opt-box-shadow-elevation-soft-spread: 0;
-  --brk-opt-box-shadow-elevation-soft-color: #e6e6e6;
-  --brk-opt-box-shadow-elevation-soft-type: dropShadow;
-  --brk-opt-box-shadow-elevation-strong-x: 0;
-  --brk-opt-box-shadow-elevation-strong-y: 7;
-  --brk-opt-box-shadow-elevation-strong-blur: 29;
-  --brk-opt-box-shadow-elevation-strong-spread: 0;
-  --brk-opt-box-shadow-elevation-strong-color: #e6e6e6;
-  --brk-opt-box-shadow-elevation-strong-type: dropShadow;
+  --brk-opt-box-shadow-elevation-soft-on-light-x: 0;
+  --brk-opt-box-shadow-elevation-soft-on-light-y: 2;
+  --brk-opt-box-shadow-elevation-soft-on-light-blur: 8;
+  --brk-opt-box-shadow-elevation-soft-on-light-spread: 0;
+  --brk-opt-box-shadow-elevation-soft-on-light-color: #e6e6e6;
+  --brk-opt-box-shadow-elevation-soft-on-light-type: dropShadow;
+  --brk-opt-box-shadow-elevation-soft-on-medium-x: 0;
+  --brk-opt-box-shadow-elevation-soft-on-medium-y: 2;
+  --brk-opt-box-shadow-elevation-soft-on-medium-blur: 8;
+  --brk-opt-box-shadow-elevation-soft-on-medium-spread: 0;
+  --brk-opt-box-shadow-elevation-soft-on-medium-color: #1a1a1a;
+  --brk-opt-box-shadow-elevation-soft-on-medium-type: dropShadow;
+  --brk-opt-box-shadow-elevation-strong-on-light-x: 0;
+  --brk-opt-box-shadow-elevation-strong-on-light-y: 7;
+  --brk-opt-box-shadow-elevation-strong-on-light-blur: 29;
+  --brk-opt-box-shadow-elevation-strong-on-light-spread: 0;
+  --brk-opt-box-shadow-elevation-strong-on-light-color: #e6e6e6;
+  --brk-opt-box-shadow-elevation-strong-on-light-type: dropShadow;
+  --brk-opt-box-shadow-elevation-strong-on-medium-x: 0;
+  --brk-opt-box-shadow-elevation-strong-on-medium-y: 7;
+  --brk-opt-box-shadow-elevation-strong-on-medium-blur: 29;
+  --brk-opt-box-shadow-elevation-strong-on-medium-spread: 0;
+  --brk-opt-box-shadow-elevation-strong-on-medium-color: #1a1a1a;
+  --brk-opt-box-shadow-elevation-strong-on-medium-type: dropShadow;
   --brk-opt-box-shadow-jel-lq-main-sm-x: 3px;
   --brk-opt-box-shadow-jel-lq-main-sm-y: 3px;
   --brk-opt-box-shadow-jel-lq-main-sm-blur: 0;
@@ -167,4 +176,11 @@
   --brk-opt-space-md-30: 30px;
   --brk-opt-space-md-32: 32px;
   --brk-opt-space-md-40: 40px;
+  --brk-opt-space-md-45: 45px;
+  --brk-opt-space-md-60: 60px;
+  --brk-opt-color-jel-main: #0b5db7;
+  --brk-opt-color-jel-second: #24c1ff;
+  --brk-opt-color-jel-third: #a6ecff;
+  --brk-opt-color-jel-accent: #fdfe8b;
+  --doc-opt-color-main: #7B61FF;
 }

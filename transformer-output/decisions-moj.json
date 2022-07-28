@@ -1,15 +1,17 @@
 {
-  "brk-button": {
+  "brk-interactive": {
     "outline-color-focus-standard": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du contour utilisé lorsque un composant est sélectionné (focus)."
+      "description": "Couleur du \"outline\" du composant interactif en cours en mode standard."
     },
     "outline-color-focus-inverted": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du contour utilisé lorsque un composant est sélectionné (focus)."
-    },
+      "description": "Couleur du \"outline\" du composant interactif en cours en mode standard."
+    }
+  },
+  "brk-button": {
     "tertiary-box-shadow": {
       "default-standard": {
         "x": {
@@ -257,11 +259,11 @@
     },
     "tertiary-sm-label": {
       "fontFamily": {
-        "value": "Impact",
+        "value": "Roboto Condensed",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Regular",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -291,11 +293,11 @@
     },
     "tertiary-md-label": {
       "fontFamily": {
-        "value": "Impact",
+        "value": "Roboto Condensed",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Regular",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -325,11 +327,11 @@
     },
     "tertiary-lg-label": {
       "fontFamily": {
-        "value": "Impact",
+        "value": "Roboto Condensed",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Regular",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -359,11 +361,11 @@
     },
     "tertiary-xl-label": {
       "fontFamily": {
-        "value": "Impact",
+        "value": "Roboto Condensed",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Regular",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -453,36 +455,6 @@
       "type": "color",
       "description": "Couleur du contour utilisé sur le bouton tertiaire en état de survol."
     },
-    "font-color-active-standard": {
-      "value": "#000000",
-      "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
-    "font-color-active-inverted": {
-      "value": "#000000",
-      "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
-    "background-color-active-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
-    "background-color-active-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
-    "border-color-active-standard": {
-      "value": "transparent",
-      "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
-    "border-color-active-inverted": {
-      "value": "transparent",
-      "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état actif ou enfoncé."
-    },
     "font-color-focus-standard": {
       "value": "#000000",
       "type": "color",
@@ -527,24 +499,24 @@
     },
     "md": {
       "padding-vertical": {
-        "value": 16,
+        "value": 10,
         "type": "spacing",
         "description": "Marges intérieures verticales du bouton tertiaire en format moyen."
       },
       "padding-horizontal": {
-        "value": 32,
+        "value": 30,
         "type": "spacing",
         "description": "Marges intérieures horizontales du bouton tertiaire en format moyen."
       }
     },
     "lg": {
       "padding-vertical": {
-        "value": 16,
+        "value": 15,
         "type": "spacing",
         "description": "Marges intérieures verticales du bouton tertiaire en format large."
       },
       "padding-horizontal": {
-        "value": 32,
+        "value": 45,
         "type": "spacing",
         "description": "Marges intérieures horizontales du bouton tertiaire en format large."
       }
@@ -556,7 +528,7 @@
         "description": "Marges intérieures verticales du bouton tertiaire en format extra large."
       },
       "padding-horizontal": {
-        "value": 40,
+        "value": 60,
         "type": "spacing",
         "description": "Marges intérieures horizontales du bouton tertiaire en format extra large."
       }
@@ -566,11 +538,11 @@
     "sm": {
       "heading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Regular",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -578,7 +550,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 10,
+          "value": 9,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -600,11 +572,11 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Regular",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -671,7 +643,7 @@
     "md": {
       "heading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -705,7 +677,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -776,7 +748,7 @@
     "lg": {
       "heading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -810,7 +782,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -881,7 +853,7 @@
     "xl": {
       "heading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -915,7 +887,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1028,7 +1000,7 @@
     "sm": {
       "subheading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1036,7 +1008,7 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "85%",
+          "value": 9,
           "type": "lineHeight"
         },
         "fontSize": {
@@ -1062,11 +1034,11 @@
       },
       "heading": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Regular",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -1096,7 +1068,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Impact",
+          "value": "Roboto Condensed",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1152,6 +1124,393 @@
         "value": 16,
         "type": "spacing",
         "description": "Séparation minimale entre les textes et le bouton de la carte en petit format."
+      }
+    },
+    "md": {
+      "subheading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format moyen."
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format moyen."
+      },
+      "padding-vertical": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format moyen."
+      },
+      "heading-margin-vertical": {
+        "value": 4,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format moyen."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format moyen."
+      }
+    },
+    "lg": {
+      "subheading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format large."
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format large."
+      }
+    },
+    "xl": {
+      "subheading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 36,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Roboto Condensed",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "85%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 18,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 320,
+        "type": "sizing",
+        "description": "Hauteur de l'image de la carte en format extra large."
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures sur les côtés de la carte de jeu en format extra large."
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": "Marges intérieures verticales de la carte de jeu en format extra large."
+      },
+      "heading-margin-vertical": {
+        "value": 8,
+        "type": "spacing",
+        "description": "Marges verticales du titre dans la carte de jeu en format extra large."
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": "Séparation minimale entre les textes et le bouton de la carte en format extra large."
       }
     },
     "heading-font-color-standard": {
@@ -1215,87 +1574,6 @@
         "type": "type"
       }
     },
-    "md": {
-      "image-height": {
-        "value": 270,
-        "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format moyen."
-      },
-      "padding-horizontal": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format moyen."
-      },
-      "padding-vertical": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format moyen."
-      },
-      "heading-margin-vertical": {
-        "value": 4,
-        "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format moyen."
-      },
-      "content-gap": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format moyen."
-      }
-    },
-    "lg": {
-      "image-height": {
-        "value": 270,
-        "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format large."
-      },
-      "padding-horizontal": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format large."
-      },
-      "padding-vertical": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format large."
-      },
-      "heading-margin-vertical": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format large."
-      },
-      "content-gap": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format large."
-      }
-    },
-    "xl": {
-      "image-height": {
-        "value": 320,
-        "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format extra large."
-      },
-      "padding-horizontal": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format extra large."
-      },
-      "padding-vertical": {
-        "value": 24,
-        "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format extra large."
-      },
-      "heading-margin-vertical": {
-        "value": 8,
-        "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format extra large."
-      },
-      "content-gap": {
-        "value": 16,
-        "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format extra large."
-      }
-    },
     "box-shadow-default-hover": {
       "x": {
         "value": 0,
@@ -1314,33 +1592,7 @@
         "type": "spread"
       },
       "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "box-shadow-default-active": {
-      "x": {
-        "value": 0,
-        "type": "x"
-      },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
+        "value": "#1a1a1a",
         "type": "color"
       },
       "type": {
@@ -1361,7 +1613,7 @@
       "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
     }
   },
-  "doc-card-hero": {
+  "brk-doc-card-hero": {
     "image-border-radius": {
       "value": 0,
       "type": "borderRadius",
@@ -1398,6 +1650,11 @@
       "value": "#1a1a1a",
       "type": "color",
       "description": "Gris très foncé."
+    },
+    "975": {
+      "value": "#060606",
+      "type": "color",
+      "description": "Gris très foncé, parfois utilisé à la place du noir."
     },
     "1000": {
       "value": "#000000",
@@ -1489,28 +1746,6 @@
       "description": "Vert MOJ"
     }
   },
-  "brk-opt-color-jel": {
-    "main": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": "Bleu des jeux JEL."
-    },
-    "second": {
-      "value": "#24c1ff",
-      "type": "color",
-      "description": "Bleu éclatant JEL."
-    },
-    "third": {
-      "value": "#a6ecff",
-      "type": "color",
-      "description": "Bleu frais JEL."
-    },
-    "accent": {
-      "value": "#fdfe8b",
-      "type": "color",
-      "description": "Jaune JEL."
-    }
-  },
   "brk-opt-font-family": {
     "brand-lq": {
       "value": "Graphik",
@@ -1518,7 +1753,7 @@
       "description": "Police à privilégier pour toutes les marques Loto-Québec."
     },
     "brand-moj": {
-      "value": "Impact",
+      "value": "Roboto Condensed",
       "type": "fontFamilies",
       "description": "Police à utiliser pour la marque Mise-o-jeu"
     }
@@ -1567,7 +1802,7 @@
       "description": "Police de caractère gras."
     }
   },
-  "brk-opt-font-size-caption": {
+  "brk-opt-font-size-sm": {
     "8": {
       "value": 8,
       "type": "fontSizes",
@@ -1604,7 +1839,7 @@
       "description": "Texte de petit format. Équivalent à 14px."
     }
   },
-  "brk-opt-font-size-body": {
+  "brk-opt-font-size-md": {
     "15": {
       "value": 15,
       "type": "fontSizes",
@@ -1636,7 +1871,7 @@
       "description": "Texte de format moyen. Équivalent à 22px."
     }
   },
-  "brk-opt-font-size-heading": {
+  "brk-opt-font-size-lg": {
     "24": {
       "value": 24,
       "type": "fontSizes",
@@ -1673,7 +1908,7 @@
       "description": "Texte de grand format. Équivalent à 48px."
     }
   },
-  "brk-opt-font-size-display": {
+  "brk-opt-font-size-xl": {
     "56": {
       "value": 56,
       "type": "fontSizes",
@@ -1762,12 +1997,12 @@
     "4": {
       "value": 4,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 4 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 4px."
     },
     "8": {
       "value": 8,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 8px."
     },
     "10": {
       "value": 10,
@@ -1782,91 +2017,91 @@
     "14": {
       "value": 14,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 14 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 14px."
     },
     "16": {
       "value": 16,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 16px."
     },
     "18": {
       "value": 18,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 18 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 18px."
     },
     "20": {
       "value": 20,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 20 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 20px."
     }
   },
   "brk-opt-size-md": {
     "24": {
       "value": 24,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 24px."
     },
     "28": {
       "value": 28,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 28 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 28px."
     },
     "30": {
       "value": 30,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 30 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 30px."
     },
     "32": {
       "value": 32,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 32 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 32px."
     },
     "36": {
       "value": 36,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 36px."
     },
     "40": {
       "value": 40,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 40 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 40px."
     },
     "44": {
       "value": 44,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 44 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 44px."
     },
     "48": {
       "value": 48,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 48 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 48px."
     },
     "60": {
       "value": 60,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 60 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 60px."
     },
     "72": {
       "value": 72,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 72 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 72px."
     }
   },
   "brk-opt-size-lg": {
     "180": {
       "value": 180,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 180 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 180px."
     },
     "270": {
       "value": 270,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 270 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 270px."
     },
     "320": {
       "value": 320,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 320 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 320px."
     }
   },
   "brk-opt-border-radius": {
@@ -1956,55 +2191,111 @@
       }
     },
     "elevation-soft": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "on-light": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 8,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
+      "on-medium": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 8,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#1a1a1a",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       }
     },
     "elevation-strong": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "on-light": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 7,
+          "type": "y"
+        },
+        "blur": {
+          "value": 29,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       },
-      "y": {
-        "value": 7,
-        "type": "y"
-      },
-      "blur": {
-        "value": 29,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
+      "on-medium": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 7,
+          "type": "y"
+        },
+        "blur": {
+          "value": 29,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#1a1a1a",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       }
     }
   },
@@ -2200,7 +2491,46 @@
     "40": {
       "value": 40,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 40 px."
+      "description": "Token d'espacement de taille moyenne équivalent à 40px."
+    },
+    "45": {
+      "value": 45,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 45px."
+    },
+    "60": {
+      "value": 60,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 60px."
+    }
+  },
+  "brk-opt-color-jel": {
+    "main": {
+      "value": "#0b5db7",
+      "type": "color",
+      "description": "Bleu des jeux JEL."
+    },
+    "second": {
+      "value": "#24c1ff",
+      "type": "color",
+      "description": "Bleu éclatant JEL."
+    },
+    "third": {
+      "value": "#a6ecff",
+      "type": "color",
+      "description": "Bleu frais JEL."
+    },
+    "accent": {
+      "value": "#fdfe8b",
+      "type": "color",
+      "description": "Jaune JEL."
+    }
+  },
+  "doc-opt-color": {
+    "main": {
+      "value": "#7B61FF",
+      "type": "color",
+      "description": "Couleur principale utilisée pour la documentation."
     }
   }
 }

@@ -30,6 +30,11 @@
       "type": "color",
       "description": "Gris très foncé."
     },
+    "975": {
+      "value": "#060606",
+      "type": "color",
+      "description": "Gris très foncé, parfois utilisé à la place du noir."
+    },
     "1000": {
       "value": "#000000",
       "type": "color",
@@ -120,28 +125,6 @@
       "description": "Vert MOJ"
     }
   },
-  "brk-opt-color-jel": {
-    "main": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": "Bleu des jeux JEL."
-    },
-    "second": {
-      "value": "#24c1ff",
-      "type": "color",
-      "description": "Bleu éclatant JEL."
-    },
-    "third": {
-      "value": "#a6ecff",
-      "type": "color",
-      "description": "Bleu frais JEL."
-    },
-    "accent": {
-      "value": "#fdfe8b",
-      "type": "color",
-      "description": "Jaune JEL."
-    }
-  },
   "brk-opt-font-family": {
     "brand-lq": {
       "value": "Graphik",
@@ -149,7 +132,7 @@
       "description": "Police à privilégier pour toutes les marques Loto-Québec."
     },
     "brand-moj": {
-      "value": "Impact",
+      "value": "Roboto Condensed",
       "type": "fontFamilies",
       "description": "Police à utiliser pour la marque Mise-o-jeu"
     }
@@ -198,7 +181,7 @@
       "description": "Police de caractère gras."
     }
   },
-  "brk-opt-font-size-caption": {
+  "brk-opt-font-size-sm": {
     "8": {
       "value": 8,
       "type": "fontSizes",
@@ -235,7 +218,7 @@
       "description": "Texte de petit format. Équivalent à 14px."
     }
   },
-  "brk-opt-font-size-body": {
+  "brk-opt-font-size-md": {
     "15": {
       "value": 15,
       "type": "fontSizes",
@@ -267,7 +250,7 @@
       "description": "Texte de format moyen. Équivalent à 22px."
     }
   },
-  "brk-opt-font-size-heading": {
+  "brk-opt-font-size-lg": {
     "24": {
       "value": 24,
       "type": "fontSizes",
@@ -304,7 +287,7 @@
       "description": "Texte de grand format. Équivalent à 48px."
     }
   },
-  "brk-opt-font-size-display": {
+  "brk-opt-font-size-xl": {
     "56": {
       "value": 56,
       "type": "fontSizes",
@@ -393,12 +376,12 @@
     "4": {
       "value": 4,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 4 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 4px."
     },
     "8": {
       "value": 8,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 8 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 8px."
     },
     "10": {
       "value": 10,
@@ -413,91 +396,91 @@
     "14": {
       "value": 14,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 14 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 14px."
     },
     "16": {
       "value": 16,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 16 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 16px."
     },
     "18": {
       "value": 18,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 18 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 18px."
     },
     "20": {
       "value": 20,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 20 px."
+      "description": "Taille petite pour les composants de l'interface équivalent à 20px."
     }
   },
   "brk-opt-size-md": {
     "24": {
       "value": 24,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 24 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 24px."
     },
     "28": {
       "value": 28,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 28 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 28px."
     },
     "30": {
       "value": 30,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 30 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 30px."
     },
     "32": {
       "value": 32,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 32 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 32px."
     },
     "36": {
       "value": 36,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 36 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 36px."
     },
     "40": {
       "value": 40,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 40 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 40px."
     },
     "44": {
       "value": 44,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 44 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 44px."
     },
     "48": {
       "value": 48,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 48 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 48px."
     },
     "60": {
       "value": 60,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 60 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 60px."
     },
     "72": {
       "value": 72,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 72 px."
+      "description": "Taille moyenne pour les composants de l'interface équivalent à 72px."
     }
   },
   "brk-opt-size-lg": {
     "180": {
       "value": 180,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 180 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 180px."
     },
     "270": {
       "value": 270,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 270 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 270px."
     },
     "320": {
       "value": 320,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 320 px."
+      "description": "Taille large pour les composants de l'interface équivalent à 320px."
     }
   },
   "brk-opt-border-radius": {
@@ -587,55 +570,111 @@
       }
     },
     "elevation-soft": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "on-light": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 8,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
+      "on-medium": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 8,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#1a1a1a",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       }
     },
     "elevation-strong": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "on-light": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 7,
+          "type": "y"
+        },
+        "blur": {
+          "value": 29,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       },
-      "y": {
-        "value": 7,
-        "type": "y"
-      },
-      "blur": {
-        "value": 29,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
+      "on-medium": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 7,
+          "type": "y"
+        },
+        "blur": {
+          "value": 29,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#1a1a1a",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
       }
     }
   },
@@ -831,7 +870,46 @@
     "40": {
       "value": 40,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 40 px."
+      "description": "Token d'espacement de taille moyenne équivalent à 40px."
+    },
+    "45": {
+      "value": 45,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 45px."
+    },
+    "60": {
+      "value": 60,
+      "type": "spacing",
+      "description": "Token d'espacement de taille moyenne équivalent à 60px."
+    }
+  },
+  "brk-opt-color-jel": {
+    "main": {
+      "value": "#0b5db7",
+      "type": "color",
+      "description": "Bleu des jeux JEL."
+    },
+    "second": {
+      "value": "#24c1ff",
+      "type": "color",
+      "description": "Bleu éclatant JEL."
+    },
+    "third": {
+      "value": "#a6ecff",
+      "type": "color",
+      "description": "Bleu frais JEL."
+    },
+    "accent": {
+      "value": "#fdfe8b",
+      "type": "color",
+      "description": "Jaune JEL."
+    }
+  },
+  "doc-opt-color": {
+    "main": {
+      "value": "#7B61FF",
+      "type": "color",
+      "description": "Couleur principale utilisée pour la documentation."
     }
   }
 }
