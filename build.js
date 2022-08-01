@@ -29,16 +29,17 @@ StyleDictionary.registerFilter({
         return !(token.name.includes("Opt") || token.name.includes("Doc"));
     }
 });
-/*StyleDictionary.registerTransform({
+StyleDictionary.registerTransform({
     name: 'any/px',
     type: 'value',
     matcher: function (token) {
-        return ['borderRadius', 'spacing', 'borderWidth', 'fontSizes', 'fontSize'].includes(token.type);
+        console.log(token.type);
+        return ['borderRadius','spacing', 'borderWidth', 'fontSizes', 'fontSize'].includes(token.type);
     },
     transformer: (token) => {
-        return `${token.value}px`;
+        return token.value.toString().includes('px') ? `${token.value}` : `${token.value}px`;
     }
-});*/
+});
 
 
 function getStyleDictionaryConfig(brand, platform) {
@@ -49,7 +50,7 @@ function getStyleDictionaryConfig(brand, platform) {
         "platforms": {
             "scss": {
                 "transformGroup": "scss",
-                "transforms": ['shadow/spreadShadow', "attribute/cti", "name/cti/kebab", "color/hex", "size/px",],
+                "transforms": ['shadow/spreadShadow', "attribute/cti", "name/cti/kebab", "color/hex", "size/px"],
                 "buildPath": "build/scss/",
                 "files": [{
                     "destination": `${brand}-variables.scss`,
@@ -59,7 +60,7 @@ function getStyleDictionaryConfig(brand, platform) {
             },
             "css": {
                 "transformGroup": "css",
-                "transforms": ['shadow/spreadShadow', "attribute/cti", "name/cti/kebab", "color/hex", "size/rem",],
+                "transforms": ['shadow/spreadShadow', "attribute/cti", "name/cti/kebab", "color/hex","any/px", "size/rem"],
                 "buildPath": "build/css/",
                 "files": [{
                     "destination": `${brand}-variables.css`,
@@ -84,7 +85,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['options', 'decisions-lq','decisions-moj','decisions-jel'].map(function (brand) {    
+['decisions-lq', 'decisions-moj','decisions-jel'].map(function (brand) {
     ['scss', 'css', 'ios'].map(function (platform) {
 
         console.log('\n==============================================');
