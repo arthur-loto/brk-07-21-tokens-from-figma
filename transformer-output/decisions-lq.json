@@ -1580,11 +1580,11 @@
         "type": "x"
       },
       "y": {
-        "value": 7,
+        "value": 2,
         "type": "y"
       },
       "blur": {
-        "value": 29,
+        "value": 8,
         "type": "blur"
       },
       "spread": {
@@ -1624,543 +1624,533 @@
     "0": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Cette couleur de la palette neutre équivaut au blanc."
+      "description": " "
     },
     "25": {
       "value": "#f9f9f9",
       "type": "color",
-      "description": "Gris très pâle."
+      "description": " "
     },
     "50": {
       "value": "#f2f2f2",
       "type": "color",
-      "description": "Gris très pâle."
+      "description": " "
     },
     "100": {
       "value": "#e6e6e6",
       "type": "color",
-      "description": "Gris pâle."
+      "description": " "
     },
     "675": {
       "value": "#535353",
       "type": "color",
-      "description": "Gris moyen."
+      "description": " "
     },
     "900": {
       "value": "#1a1a1a",
       "type": "color",
-      "description": "Gris très foncé."
+      "description": " "
     },
     "975": {
       "value": "#060606",
       "type": "color",
-      "description": "Gris très foncé, parfois utilisé à la place du noir."
+      "description": " "
     },
     "1000": {
       "value": "#000000",
       "type": "color",
-      "description": "Cette couleur de la palette neutre équivaut au noir."
+      "description": " "
     },
     "saturation": {
       "value": 0,
       "type": "color",
-      "description": "Valeur correspondante à la saturation selon le modèle de couleur HSL."
+      "description": "NOTE :  valeur correspondante à la saturation selon le modèle de couleur HSL."
     },
     "hue": {
       "value": 0,
       "type": "color",
-      "description": "Valeur correspondante à la teinte selon le modèle de couleur HSL."
+      "description": "NOTE :  valeur correspondante à la teinte selon le modèle de couleur HSL."
     }
   },
   "brk-opt-color-lq-main": {
     "50": {
       "value": "#eaedfa",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 95%."
+      "description": " "
     },
     "100": {
       "value": "#d5dbf6",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 90%."
+      "description": " "
     },
     "200": {
       "value": "#abb6ed",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 80%."
+      "description": " "
     },
     "500": {
       "value": "#2e49d1",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 50%."
+      "description": " "
     },
     "600": {
       "value": "#253aa7",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 40%."
+      "description": " "
     },
     "650": {
       "value": "#203392",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 35%."
+      "description": " "
     },
     "728": {
       "value": "#192872",
       "type": "color",
-      "description": "Bleu oficiel de Loto-Québec. Le $bleu-lq-728 a un indice de luminosité de 27,25 % à la place de 25 % afin de se rapprocher de la nuance bleu Loto-Québec (#192872)."
+      "description": "NOTE :  bleu officiel de Loto-Québec. Le $bleu-lq-728 a un indice de luminosité de 27,25 % à la place de 25 % afin de se rapprocher de la nuance bleu Loto-Québec (#192872)."
     },
     "800": {
       "value": "#121d54",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 20%."
+      "description": " "
     },
     "900": {
       "value": "#090f2a",
       "type": "color",
-      "description": "Bleu de la palette étendue de Loto-Québec, avec un indice de luminosité de 10%. Cette couleur doit être utilisée à la place du noir pur #000000 sur les interfaces de Loto-Québec."
+      "description": " "
     },
     "saturation": {
       "value": 64,
       "type": "color",
-      "description": "Valeur correspondante à la saturation selon le modèle de couleur HSL."
+      "description": "NOTE :  valeur correspondante à la saturation selon le modèle de couleur HSL."
     },
     "hue": {
       "value": 230,
       "type": "color",
-      "description": "Valeur correspondante à la teinte selon le modèle de couleur HSL."
+      "description": "NOTE :  valeur correspondante à la teinte selon le modèle de couleur HSL."
     }
   },
   "brk-opt-color-moj": {
     "main": {
       "value": "#db1f1f",
       "type": "color",
-      "description": "Rouge original."
+      "description": " "
     },
     "main-web": {
       "value": "#e41f1f",
       "type": "color",
-      "description": "Rouge ajusté pour le site web seulement (accessibilité web)."
+      "description": "NOTE :  rouge ajusté pour le site web seulement (accessibilité web)."
     },
     "second": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Vert MOJ"
+      "description": " "
     }
   },
   "brk-opt-font-family": {
-    "brand-lq": {
+    "brand-main": {
       "value": "Graphik",
       "type": "fontFamilies",
-      "description": "Police à privilégier pour toutes les marques Loto-Québec."
+      "description": "NOTE :  Police à privilégier pour toutes les marques Loto-Québec."
     },
-    "brand-moj": {
+    "brand-alt-moj": {
       "value": "Roboto Condensed",
       "type": "fontFamilies",
-      "description": "Police à utiliser pour la marque Mise-o-jeu"
+      "description": "NOTE :  Police à utiliser pour la marque Mise-o-jeu"
     }
   },
   "brk-opt-line-height": {
-    "xs": {
+    "85%": {
       "value": "85%",
       "type": "lineHeights",
-      "description": "Interlignage très serré."
+      "description": " "
     },
-    "sm": {
+    "100%": {
       "value": "100%",
       "type": "lineHeights",
-      "description": "Interlignage très serré."
+      "description": " "
     },
-    "md": {
+    "110%": {
       "value": "110%",
       "type": "lineHeights",
-      "description": "Interlignage des gros titres."
+      "description": " "
     },
-    "lg": {
+    "120%": {
       "value": "120%",
       "type": "lineHeights",
-      "description": "Interlignage des titres."
+      "description": " "
     },
-    "xl": {
+    "160%": {
       "value": "160%",
       "type": "lineHeights",
-      "description": "Interlignage des paragraphes."
+      "description": " "
     }
   },
   "brk-opt-font-weight": {
     "regular": {
       "value": "Regular",
       "type": "fontWeights",
-      "description": "Police de caractère régulière."
+      "description": " "
     },
     "medium": {
       "value": "Medium",
       "type": "fontWeights",
-      "description": "Police de caractère moyenne."
+      "description": " "
     },
     "bold": {
       "value": "Bold",
       "type": "fontWeights",
-      "description": "Police de caractère gras."
+      "description": " "
     }
   },
-  "brk-opt-font-size-sm": {
+  "brk-opt-font-size": {
     "8": {
       "value": 8,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 8px."
+      "description": " "
     },
     "9": {
       "value": 9,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 9px."
+      "description": " "
     },
     "10": {
       "value": 10,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 10px."
+      "description": " "
     },
     "11": {
       "value": 11,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 11px."
+      "description": " "
     },
     "12": {
       "value": 12,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 12px."
+      "description": " "
     },
     "13": {
       "value": 13,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 13px."
+      "description": "  "
     },
     "14": {
       "value": 14,
       "type": "fontSizes",
-      "description": "Texte de petit format. Équivalent à 14px."
-    }
-  },
-  "brk-opt-font-size-md": {
+      "description": " "
+    },
     "15": {
       "value": 15,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 15px."
+      "description": " "
     },
     "16": {
       "value": 16,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 16px."
+      "description": " "
     },
     "18": {
       "value": 18,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 18px."
+      "description": " "
     },
     "19": {
-      "value": 18,
+      "value": 19,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 19px."
+      "description": " "
     },
     "20": {
       "value": 20,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 20px."
+      "description": " "
     },
     "22": {
       "value": 22,
       "type": "fontSizes",
-      "description": "Texte de format moyen. Équivalent à 22px."
-    }
-  },
-  "brk-opt-font-size-lg": {
+      "description": " "
+    },
     "24": {
       "value": 24,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 24px."
+      "description": " "
     },
     "26": {
       "value": 26,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 26px."
+      "description": " "
     },
     "28": {
       "value": 28,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 28px."
+      "description": " "
     },
     "32": {
       "value": 32,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 32px."
+      "description": " "
     },
     "36": {
       "value": 36,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 36px."
+      "description": " "
     },
     "42": {
       "value": 42,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 42px."
+      "description": " "
     },
     "48": {
       "value": 48,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 48px."
-    }
-  },
-  "brk-opt-font-size-xl": {
+      "description": " "
+    },
     "56": {
       "value": 56,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 56px."
+      "description": " "
     },
     "72": {
       "value": 72,
       "type": "fontSizes",
-      "description": "Texte de grand format. Équivalent à 72px."
+      "description": " "
     }
   },
   "brk-opt-letter-spacing": {
-    "tight": {
+    "-2%": {
       "value": "-2%",
       "type": "letterSpacing",
-      "description": "Interlettrage compresé."
+      "description": " "
     },
-    "regular": {
+    "0%": {
       "value": "0%",
       "type": "letterSpacing",
-      "description": "Interlettrage régulier."
+      "description": " "
     },
-    "loose": {
+    "2%": {
       "value": "2%",
       "type": "letterSpacing",
-      "description": "Interlettrage étendu."
+      "description": " "
     },
-    "x-loose": {
+    "4%": {
       "value": "4%",
       "type": "letterSpacing",
-      "description": "Interlettrage plus étendu."
+      "description": " "
     }
   },
   "brk-opt-paragraph-spacing": {
-    "none": {
+    "0%": {
       "value": 0,
       "type": "paragraphSpacing",
-      "description": "La séparation entre paragraphes/titres est égale à zéro."
+      "description": " "
     },
-    "body": {
+    "8%": {
       "value": "8%",
       "type": "paragraphSpacing",
-      "description": "Séparation entre paragraphes."
+      "description": " "
     },
-    "heading": {
+    "12%": {
       "value": "12%",
       "type": "paragraphSpacing",
-      "description": "Séparation entre titres."
+      "description": " "
     },
-    "display": {
+    "16%": {
       "value": "16%",
       "type": "paragraphSpacing",
-      "description": "Séparation entre gros titres."
+      "description": " "
     }
   },
   "brk-opt-text-transform": {
     "none": {
       "value": "none",
       "type": "textCase",
-      "description": " La casse des textes par défaut."
+      "description": " "
     },
     "lowercase": {
       "value": "lowercase",
       "type": "textCase",
-      "description": "La casse des textes est en minuscules."
+      "description": " "
     },
     "uppercase": {
       "value": "uppercase",
       "type": "textCase",
-      "description": "La casse des textes est en majuscules."
+      "description": " "
     },
     "capitalize": {
       "value": "capitalize",
       "type": "textCase",
-      "description": "Le premier caractère des textes est en majuscules."
+      "description": " "
     }
   },
   "brk-opt-text-decoration": {
     "none": {
       "value": "none",
       "type": "textDecoration",
-      "description": "Pas de surlignage ou autre élément décoratif sur le texte."
+      "description": " "
     }
   },
-  "brk-opt-size-sm": {
+  "brk-opt-size": {
     "4": {
       "value": 4,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 4px."
+      "description": " "
     },
     "8": {
       "value": 8,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 8px."
+      "description": " "
     },
     "10": {
       "value": 10,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 10px."
+      "description": " "
     },
     "12": {
       "value": 12,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 12px."
+      "description": " "
     },
     "14": {
       "value": 14,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 14px."
+      "description": " "
     },
     "16": {
       "value": 16,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 16px."
+      "description": " "
     },
     "18": {
       "value": 18,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 18px."
+      "description": " "
     },
     "20": {
       "value": 20,
       "type": "sizing",
-      "description": "Taille petite pour les composants de l'interface équivalent à 20px."
-    }
-  },
-  "brk-opt-size-md": {
+      "description": " "
+    },
     "24": {
       "value": 24,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 24px."
+      "description": " "
     },
     "28": {
       "value": 28,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 28px."
+      "description": " "
     },
     "30": {
       "value": 30,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 30px."
+      "description": " "
     },
     "32": {
       "value": 32,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 32px."
+      "description": " "
     },
     "36": {
       "value": 36,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 36px."
+      "description": " "
     },
     "40": {
       "value": 40,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 40px."
+      "description": " "
     },
     "44": {
       "value": 44,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 44px."
+      "description": " "
     },
     "48": {
       "value": 48,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 48px."
+      "description": " "
     },
     "60": {
       "value": 60,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 60px."
+      "description": " "
     },
     "72": {
       "value": 72,
       "type": "sizing",
-      "description": "Taille moyenne pour les composants de l'interface équivalent à 72px."
-    }
-  },
-  "brk-opt-size-lg": {
+      "description": " "
+    },
     "180": {
       "value": 180,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 180px."
+      "description": " "
     },
     "270": {
       "value": 270,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 270px."
+      "description": " "
     },
     "320": {
       "value": 320,
       "type": "sizing",
-      "description": "Taille large pour les composants de l'interface équivalent à 320px."
+      "description": " "
     }
   },
   "brk-opt-border-radius": {
-    "none": {
+    "0": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Coins carrés."
+      "description": " "
     },
-    "3xs": {
+    "1": {
       "value": 1,
       "type": "borderRadius",
-      "description": "Coins presque carrés."
+      "description": " "
     },
-    "2xs": {
+    "2": {
       "value": 2,
       "type": "borderRadius",
-      "description": "Coins presque carrés."
+      "description": " "
     },
-    "xs": {
+    "4": {
       "value": 4,
       "type": "borderRadius",
-      "description": "Coins légèrement carrés."
+      "description": " "
     },
-    "sm": {
+    "8": {
       "value": 8,
       "type": "borderRadius",
-      "description": "Coins légèrement ronds."
+      "description": " "
     },
-    "md": {
+    "16": {
       "value": 16,
       "type": "borderRadius",
-      "description": "Coins ronds."
+      "description": " "
     },
-    "lg": {
+    "24": {
       "value": 24,
       "type": "borderRadius",
-      "description": "Coins très arrodis."
+      "description": " "
     }
   },
   "brk-opt-border-width": {
-    "none": {
+    "0": {
       "value": 0,
       "type": "borderWidth",
-      "description": "Pas de bordure."
+      "description": " "
     },
-    "xs": {
+    "1": {
       "value": 1,
       "type": "borderWidth",
-      "description": "Bordure très fine."
+      "description": " "
     },
-    "sm": {
+    "2": {
       "value": 2,
       "type": "borderWidth",
-      "description": "Bordure fine."
+      "description": " "
     },
-    "md": {
+    "4": {
       "value": 4,
       "type": "borderWidth",
-      "description": "Bordure moyenne."
+      "description": " "
     }
   },
   "brk-opt-box-shadow": {
@@ -2190,117 +2180,111 @@
         "type": "type"
       }
     },
-    "elevation-soft": {
-      "on-light": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 2,
-          "type": "y"
-        },
-        "blur": {
-          "value": 8,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#e6e6e6",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+    "blur-soft-standard": {
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "on-medium": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 2,
-          "type": "y"
-        },
-        "blur": {
-          "value": 8,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#1a1a1a",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 8,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
       }
     },
-    "elevation-strong": {
-      "on-light": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 7,
-          "type": "y"
-        },
-        "blur": {
-          "value": 29,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#e6e6e6",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+    "blur-soft-inverted": {
+      "x": {
+        "value": 0,
+        "type": "x"
       },
-      "on-medium": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 7,
-          "type": "y"
-        },
-        "blur": {
-          "value": 29,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#1a1a1a",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+      "y": {
+        "value": 2,
+        "type": "y"
+      },
+      "blur": {
+        "value": 8,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#1a1a1a",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
       }
-    }
-  },
-  "brk-opt-box-shadow-jel": {
-    "lq-main-sm": {
+    },
+    "blur-strong-standard": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 7,
+        "type": "y"
+      },
+      "blur": {
+        "value": 29,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "blur-strong-inverted": {
+      "x": {
+        "value": 0,
+        "type": "x"
+      },
+      "y": {
+        "value": 7,
+        "type": "y"
+      },
+      "blur": {
+        "value": 29,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#1a1a1a",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "solid-soft-standard": {
       "x": {
         "value": "3px",
         "type": "x"
@@ -2326,33 +2310,7 @@
         "type": "type"
       }
     },
-    "lq-main-md": {
-      "x": {
-        "value": "5px",
-        "type": "x"
-      },
-      "y": {
-        "value": "5px",
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#192872",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "jel-main-sm": {
+    "solid-soft-inverted": {
       "x": {
         "value": "3px",
         "type": "x"
@@ -2378,7 +2336,7 @@
         "type": "type"
       }
     },
-    "neutral-sm": {
+    "solid-soft-neutral": {
       "x": {
         "value": "3px",
         "type": "x"
@@ -2403,134 +2361,210 @@
         "value": "dropShadow",
         "type": "type"
       }
+    },
+    "solid-strong-standard": {
+      "x": {
+        "value": "5px",
+        "type": "x"
+      },
+      "y": {
+        "value": "5px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#192872",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "solid-strong-inverted": {
+      "x": {
+        "value": "5px",
+        "type": "x"
+      },
+      "y": {
+        "value": "5px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#0b5db7",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "solid-strong-neutral": {
+      "x": {
+        "value": "5px",
+        "type": "x"
+      },
+      "y": {
+        "value": "5px",
+        "type": "y"
+      },
+      "blur": {
+        "value": 0,
+        "type": "blur"
+      },
+      "spread": {
+        "value": 0,
+        "type": "spread"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
     }
   },
-  "brk-opt-space-sm": {
+  "brk-opt-space": {
+    "0": {
+      "value": 0,
+      "type": "spacing",
+      "description": " "
+    },
     "1": {
       "value": 1,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 1px."
+      "description": " "
     },
     "2": {
       "value": 2,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 2px."
+      "description": " "
     },
     "3": {
       "value": 3,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 3px."
+      "description": " "
     },
     "4": {
       "value": 4,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 4px."
+      "description": " "
     },
     "5": {
       "value": 5,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 5px."
+      "description": " "
     },
     "6": {
       "value": 6,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 6px."
+      "description": " "
     },
     "8": {
       "value": 8,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 8px."
+      "description": " "
     },
     "10": {
       "value": 10,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 10px."
+      "description": " "
     },
     "12": {
       "value": 12,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 12px."
+      "description": " "
     },
     "15": {
       "value": 15,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 15px."
+      "description": " "
     },
     "16": {
       "value": 16,
       "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 16px."
+      "description": " "
     },
-    "none": {
-      "value": 0,
-      "type": "spacing",
-      "description": "Token d'espacement de petite taille équivalent à 0px."
-    }
-  },
-  "brk-opt-space-md": {
     "20": {
       "value": 20,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 20px."
+      "description": " "
     },
     "24": {
       "value": 24,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 24px."
+      "description": " "
     },
     "30": {
       "value": 30,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 30px."
+      "description": " "
     },
     "32": {
       "value": 32,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 32px."
+      "description": " "
     },
     "40": {
       "value": 40,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 40px."
+      "description": " "
     },
     "45": {
       "value": 45,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 45px."
+      "description": " "
     },
     "60": {
       "value": 60,
       "type": "spacing",
-      "description": "Token d'espacement de taille moyenne équivalent à 60px."
+      "description": " "
     }
   },
   "brk-opt-color-jel": {
     "main": {
       "value": "#0b5db7",
       "type": "color",
-      "description": "Bleu des jeux JEL."
+      "description": " "
     },
     "second": {
       "value": "#24c1ff",
       "type": "color",
-      "description": "Bleu éclatant JEL."
+      "description": " "
     },
     "third": {
       "value": "#a6ecff",
       "type": "color",
-      "description": "Bleu frais JEL."
+      "description": " "
     },
     "accent": {
       "value": "#fdfe8b",
       "type": "color",
-      "description": "Jaune JEL."
+      "description": " "
     }
   },
   "doc-opt-color": {
     "main": {
       "value": "#7B61FF",
       "type": "color",
-      "description": "Couleur principale utilisée pour la documentation."
+      "description": "NOTE :  couleur accent principale utilisée pour la documentation."
     }
   }
 }

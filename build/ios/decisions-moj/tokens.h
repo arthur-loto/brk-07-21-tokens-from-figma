@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 01 Aug 2022 21:16:05 GMT
+// Generated on Tue, 02 Aug 2022 14:47:45 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -256,7 +256,7 @@
 #define BrkCardHeroSmContentGap 16
 #define BrkCardHeroMdSubheadingFontFamily Roboto Condensed
 #define BrkCardHeroMdSubheadingFontWeight Regular
-#define BrkCardHeroMdSubheadingLineHeight 85%
+#define BrkCardHeroMdSubheadingLineHeight 12
 #define BrkCardHeroMdSubheadingFontSize 12
 #define BrkCardHeroMdSubheadingLetterSpacing 2%
 #define BrkCardHeroMdSubheadingParagraphSpacing 0
@@ -355,8 +355,8 @@
 #define BrkCardHeroBoxShadowDefaultStandardColor #000000
 #define BrkCardHeroBoxShadowDefaultStandardType dropShadow
 #define BrkCardHeroBoxShadowDefaultHoverX 0
-#define BrkCardHeroBoxShadowDefaultHoverY 7
-#define BrkCardHeroBoxShadowDefaultHoverBlur 29
+#define BrkCardHeroBoxShadowDefaultHoverY 2
+#define BrkCardHeroBoxShadowDefaultHoverBlur 8
 #define BrkCardHeroBoxShadowDefaultHoverSpread 0
 #define BrkCardHeroBoxShadowDefaultHoverColor #1a1a1a
 #define BrkCardHeroBoxShadowDefaultHoverType dropShadow

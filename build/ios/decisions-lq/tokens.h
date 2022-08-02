@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 01 Aug 2022 21:16:05 GMT
+// Generated on Tue, 02 Aug 2022 14:47:45 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -355,8 +355,8 @@
 #define BrkCardHeroBoxShadowDefaultStandardType dropShadow
 #define BrkCardHeroBorderRadius 4
 #define BrkCardHeroBoxShadowDefaultHoverX 0
-#define BrkCardHeroBoxShadowDefaultHoverY 7
-#define BrkCardHeroBoxShadowDefaultHoverBlur 29
+#define BrkCardHeroBoxShadowDefaultHoverY 2
+#define BrkCardHeroBoxShadowDefaultHoverBlur 8
 #define BrkCardHeroBoxShadowDefaultHoverSpread 0
 #define BrkCardHeroBoxShadowDefaultHoverColor #e6e6e6
 #define BrkCardHeroBoxShadowDefaultHoverType dropShadow
