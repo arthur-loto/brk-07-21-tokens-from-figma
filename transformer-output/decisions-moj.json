@@ -3,12 +3,16 @@
     "outline-color-focus-standard": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du \"outline\" du composant interactif en cours en mode standard."
+      "description": " "
     },
     "outline-color-focus-inverted": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du \"outline\" du composant interactif en cours en mode standard."
+      "description": " "
+    },
+    "outline-offset": {
+      "value": 5,
+      "type": "spacing"
     }
   },
   "brk-button": {
@@ -117,58 +121,6 @@
           "type": "type"
         }
       },
-      "active-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
-      },
-      "active-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
-        },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
-      },
       "focus-standard": {
         "x": {
           "value": 0,
@@ -225,39 +177,43 @@
     "primary-border-width": {
       "value": 0,
       "type": "borderWidth",
-      "description": "Contour du bouton primaire."
+      "description": " "
     },
     "secondary-border-width": {
       "value": 0,
       "type": "borderWidth",
-      "description": "Contour du bouton secondaire."
+      "description": " "
     },
     "tertiary-border-width": {
       "value": 0,
       "type": "borderWidth",
-      "description": "Contour du bouton tertiaire."
+      "description": " "
     },
     "icon-border-width": {
       "value": 0,
       "type": "borderWidth",
-      "description": "Contour du bouton icône."
-    },
-    "outline-width": {
-      "value": 2,
-      "type": "borderWidth",
-      "description": "Outline du bouton en cours."
+      "description": " "
     },
     "opacity-disabled": {
       "value": "50%",
       "type": "opacity",
-      "description": "Bouton en état inactif."
+      "description": " "
     },
     "border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Rayon de la bordure du composant."
-    },
-    "tertiary-sm-label": {
+      "description": " "
+    }
+  },
+  "brkinteractive": {
+    "outline-width": {
+      "value": 2,
+      "type": "borderWidth",
+      "description": " "
+    }
+  },
+  "brk-button-tertiary": {
+    "sm-label": {
       "fontFamily": {
         "value": "Roboto Condensed",
         "type": "fontFamily"
@@ -291,7 +247,7 @@
         "type": "textCase"
       }
     },
-    "tertiary-md-label": {
+    "md-label": {
       "fontFamily": {
         "value": "Roboto Condensed",
         "type": "fontFamily"
@@ -325,7 +281,7 @@
         "type": "textCase"
       }
     },
-    "tertiary-lg-label": {
+    "lg-label": {
       "fontFamily": {
         "value": "Roboto Condensed",
         "type": "fontFamily"
@@ -359,7 +315,7 @@
         "type": "textCase"
       }
     },
-    "tertiary-xl-label": {
+    "xl-label": {
       "fontFamily": {
         "value": "Roboto Condensed",
         "type": "fontFamily"
@@ -392,145 +348,143 @@
         "value": "uppercase",
         "type": "textCase"
       }
-    }
-  },
-  "brk-button-tertiary": {
+    },
     "font-color-default-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "font-color-default-inverted": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "background-color-default-standard": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "background-color-default-inverted": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "border-color-default-standard": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "border-color-default-inverted": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état par défaut."
+      "description": " "
     },
     "font-color-hover-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "font-color-hover-inverted": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du texte utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "background-color-hover-standard": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "background-color-hover-inverted": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "border-color-hover-standard": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "border-color-hover-inverted": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état de survol."
+      "description": " "
     },
     "font-color-focus-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "font-color-focus-inverted": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "background-color-focus-standard": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "background-color-focus-inverted": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du fond utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "border-color-focus-standard": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "border-color-focus-inverted": {
       "value": "transparent",
       "type": "color",
-      "description": "Couleur du contour utilisé sur le bouton tertiaire en état en cours."
+      "description": " "
     },
     "sm": {
       "padding-vertical": {
         "value": 5,
         "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en petit format."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 15,
         "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en petit format."
+        "description": " "
       }
     },
     "md": {
       "padding-vertical": {
         "value": 10,
         "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en format moyen."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 30,
         "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en format moyen."
+        "description": " "
       }
     },
     "lg": {
       "padding-vertical": {
         "value": 15,
         "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en format large."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 45,
         "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en format large."
+        "description": " "
       }
     },
     "xl": {
       "padding-vertical": {
         "value": 20,
         "type": "spacing",
-        "description": "Marges intérieures verticales du bouton tertiaire en format extra large."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 60,
         "type": "spacing",
-        "description": "Marges intérieures horizontales du bouton tertiaire en format extra large."
+        "description": " "
       }
     }
   },
@@ -607,37 +561,37 @@
       "content-gap": {
         "value": 16,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en petit format."
+        "description": "NOTE: Séparation minimale entre les textes et le montant du gros lot en petit format."
       },
       "padding-horizontal": {
         "value": 10,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en petit format."
+        "description": " "
       },
       "amount-digit-margin": {
         "value": 1,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en petit format."
+        "description": " "
       },
       "amount-group-margin": {
         "value": 5,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en petit format."
+        "description": " "
       },
       "height": {
         "value": 36,
         "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en petit format."
+        "description": " "
       },
       "amount-digit-height": {
         "value": 20,
         "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en petit format."
+        "description": " "
       },
       "amount-digit-width": {
         "value": 12,
         "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en petit format."
+        "description": " "
       }
     },
     "md": {
@@ -712,37 +666,37 @@
       "content-gap": {
         "value": 16,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en format moyen."
+        "description": "NOTE: Séparation minimale entre les textes et le montant du gros lot en format moyen."
       },
       "padding-horizontal": {
         "value": 16,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en format moyen."
+        "description": " "
       },
       "amount-digit-margin": {
         "value": 2,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format moyen."
+        "description": " "
       },
       "amount-group-margin": {
         "value": 6,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format moyen."
+        "description": " "
       },
       "height": {
         "value": 60,
         "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format moyen."
+        "description": " "
       },
       "amount-digit-height": {
         "value": 30,
         "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en format moyen."
+        "description": " "
       },
       "amount-digit-width": {
         "value": 18,
         "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en format moyen."
+        "description": " "
       }
     },
     "lg": {
@@ -817,37 +771,37 @@
       "content-gap": {
         "value": 24,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en format large."
+        "description": "NOTE: Séparation minimale entre les textes et le montant du gros lot en format large."
       },
       "padding-horizontal": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en format large."
+        "description": " "
       },
       "amount-digit-margin": {
         "value": 3,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format large."
+        "description": " "
       },
       "amount-group-margin": {
         "value": 8,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format large."
+        "description": " "
       },
       "height": {
         "value": 72,
         "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format large."
+        "description": " "
       },
       "amount-digit-height": {
         "value": 40,
         "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en format large."
+        "description": " "
       },
       "amount-digit-width": {
         "value": 24,
         "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en format large."
+        "description": " "
       }
     },
     "xl": {
@@ -922,83 +876,83 @@
       "padding-horizontal": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés du lot progressif en format extra large."
+        "description": " "
       },
       "content-gap": {
         "value": 24,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le montant du gros lot en format extra large."
+        "description": "NOTE: Séparation minimale entre les textes et le montant du gros lot en format extra large."
       },
       "amount-digit-margin": {
         "value": 4,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format extra large."
+        "description": " "
       },
       "amount-group-margin": {
         "value": 10,
         "type": "spacing",
-        "description": "Séparation entre les chiffres du lot en format extra large."
+        "description": " "
       },
       "height": {
         "value": 72,
         "type": "sizing",
-        "description": "Hauteur fixe du contenant du jackpot dans la carte héros en format extra large."
+        "description": " "
       },
       "amount-digit-height": {
         "value": 44,
         "type": "sizing",
-        "description": "Hauteur du contenant du montant du gros lot en format extra large."
+        "description": " "
       },
       "amount-digit-width": {
         "value": 28,
         "type": "sizing",
-        "description": "Largueur du contenant du montant du gros lot en format extra large."
+        "description": " "
       }
     },
     "heading-font-color-standard": {
       "value": "#c9ff00",
       "type": "color",
-      "description": "Couleur du titre principal du lot sur la carte de jeu."
+      "description": " "
     },
     "body-font-color-standard": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur des chiffres du lot sur la carte de jeu sur un fond inversé."
+      "description": " "
     },
     "body-font-color-inverted": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur du fond des chiffres du lot sur la carte de jeu sur un fond inversé."
+      "description": " "
     },
     "body-box-background-color-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du fond du lot sur la carte de jeu sur un fond standard."
+      "description": " "
     },
     "body-box-border-color-standard": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur du contour du lot sur la carte de jeu sur un fond standard."
+      "description": " "
     },
     "background-color-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du fond du lot sur la carte de jeu sur un fond standard."
+      "description": " "
     },
     "amount-digit-border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Rayon de la bordure de la boîte qui contient les numéros du lot progressif."
+      "description": " "
     },
     "amount-digit-border-width": {
       "value": 1,
       "type": "borderWidth",
-      "description": "Grosseur du contour de la boîte qui contient les numéros du lot progressif."
+      "description": " "
     }
   },
   "brk-card-hero": {
     "sm": {
-      "subheading": {
+      "pretitle": {
         "fontFamily": {
           "value": "Roboto Condensed",
           "type": "fontFamily"
@@ -1103,31 +1057,31 @@
       "image-height": {
         "value": 180,
         "type": "sizing",
-        "description": "Hauteur de l'image de la carte en petit format."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 10,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en petit format."
+        "description": " "
       },
       "padding-vertical": {
         "value": 10,
         "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en petit format."
+        "description": " "
       },
       "heading-margin-vertical": {
         "value": 4,
         "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en petit format."
+        "description": " "
       },
       "content-gap": {
         "value": 16,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en petit format."
+        "description": "NOTE: Séparation minimale entre les textes et le bouton de la carte en petit format."
       }
     },
     "md": {
-      "subheading": {
+      "pretitle": {
         "fontFamily": {
           "value": "Roboto Condensed",
           "type": "fontFamily"
@@ -1232,31 +1186,31 @@
       "image-height": {
         "value": 270,
         "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format moyen."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 16,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format moyen."
+        "description": " "
       },
       "padding-vertical": {
         "value": 16,
         "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format moyen."
+        "description": " "
       },
       "heading-margin-vertical": {
         "value": 4,
         "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format moyen."
+        "description": " "
       },
       "content-gap": {
         "value": 24,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format moyen."
+        "description": "NOTE: Séparation minimale entre les textes et le bouton de la carte en format moyen."
       }
     },
     "lg": {
-      "subheading": {
+      "pretitle": {
         "fontFamily": {
           "value": "Roboto Condensed",
           "type": "fontFamily"
@@ -1361,31 +1315,31 @@
       "image-height": {
         "value": 270,
         "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format large."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format large."
+        "description": " "
       },
       "padding-vertical": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format large."
+        "description": " "
       },
       "heading-margin-vertical": {
         "value": 8,
         "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format large."
+        "description": " "
       },
       "content-gap": {
         "value": 24,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format large."
+        "description": "NOTE: Séparation minimale entre les textes et le bouton de la carte en format large."
       }
     },
     "xl": {
-      "subheading": {
+      "pretitle": {
         "fontFamily": {
           "value": "Roboto Condensed",
           "type": "fontFamily"
@@ -1490,63 +1444,63 @@
       "image-height": {
         "value": 320,
         "type": "sizing",
-        "description": "Hauteur de l'image de la carte en format extra large."
+        "description": " "
       },
       "padding-horizontal": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures sur les côtés de la carte de jeu en format extra large."
+        "description": " "
       },
       "padding-vertical": {
         "value": 24,
         "type": "spacing",
-        "description": "Marges intérieures verticales de la carte de jeu en format extra large."
+        "description": " "
       },
       "heading-margin-vertical": {
         "value": 8,
         "type": "spacing",
-        "description": "Marges verticales du titre dans la carte de jeu en format extra large."
+        "description": " "
       },
       "content-gap": {
         "value": 16,
         "type": "spacing",
-        "description": "Séparation minimale entre les textes et le bouton de la carte en format extra large."
+        "description": "NOTE: Séparation minimale entre les textes et le bouton de la carte en format extra large."
       }
     },
     "heading-font-color-standard": {
       "value": "#ffffff",
       "type": "color",
-      "description": "Couleur du titre principal de la carte de jeu."
+      "description": " "
     },
     "subheading-font-color-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du surtitre de la carte de jeu."
+      "description": " "
     },
     "body-font-color-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur des paragraphs de la carte de jeu."
+      "description": " "
     },
     "background-color-standard": {
       "value": "#e41f1f",
       "type": "color",
-      "description": "Couleur du fond de la carte de jeu."
+      "description": " "
     },
     "border-color-standard": {
       "value": "#000000",
       "type": "color",
-      "description": "Couleur du contour de la carte de jeu."
+      "description": " "
     },
     "border-width": {
       "value": 1,
       "type": "borderWidth",
-      "description": "Grosseur du contour de la carte."
+      "description": " "
     },
     "border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "Rayon de la bordure des cartes."
+      "description": " "
     },
     "box-shadow-default-standard": {
       "x": {
@@ -1605,19 +1559,157 @@
     "background-color-standard": {
       "value": "#e41f1f",
       "type": "color",
-      "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
+      "description": "NOTE: token de documentation - seulement utile pour les designers"
     },
     "background-color-inverted": {
       "value": "#000000",
       "type": "color",
-      "description": "Documentation dans Figma : couleur du fond utilisé sur un contenant générique."
+      "description": "NOTE: token de documentation - seulement utile pour les designers"
     }
   },
   "brk-doc-card-hero": {
     "image-border-radius": {
       "value": 0,
       "type": "borderRadius",
-      "description": "TOKEN DE DOCUMENTATION. Rayon de la bordure supérieur de l'image dans les cartes."
+      "description": "NOTE: token de documentation - seulement utile pour les designers"
+    }
+  },
+  "brk-button-primary": {
+    "sm-label": {
+      "fontFamily": {
+        "value": "Roboto Condensed",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 14,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "md-label": {
+      "fontFamily": {
+        "value": "Roboto Condensed",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 24,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "lg-label": {
+      "fontFamily": {
+        "value": "Roboto Condensed",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 28,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "xl-label": {
+      "fontFamily": {
+        "value": "Roboto Condensed",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "85%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 32,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
     }
   },
   "brk-opt-color-neutral": {
@@ -1873,6 +1965,10 @@
       "type": "fontSizes",
       "description": " "
     },
+    "25": {
+      "value": 25,
+      "type": "fontSizes"
+    },
     "26": {
       "value": 26,
       "type": "fontSizes",
@@ -2068,6 +2164,10 @@
       "type": "sizing",
       "description": " "
     },
+    "50": {
+      "value": 50,
+      "type": "sizing"
+    },
     "60": {
       "value": 60,
       "type": "sizing",
@@ -2092,6 +2192,14 @@
       "value": 320,
       "type": "sizing",
       "description": " "
+    },
+    "960": {
+      "value": 960,
+      "type": "sizing"
+    },
+    "1920": {
+      "value": 1920,
+      "type": "sizing"
     }
   },
   "brk-opt-border-radius": {
@@ -2180,7 +2288,7 @@
         "type": "type"
       }
     },
-    "blur-soft-standard": {
+    "blur-standard": {
       "x": {
         "value": 0,
         "type": "x"
@@ -2206,7 +2314,7 @@
         "type": "type"
       }
     },
-    "blur-soft-inverted": {
+    "blur-inverted": {
       "x": {
         "value": 0,
         "type": "x"
@@ -2232,65 +2340,13 @@
         "type": "type"
       }
     },
-    "blur-strong-standard": {
+    "solid-standard": {
       "x": {
-        "value": 0,
+        "value": 3,
         "type": "x"
       },
       "y": {
-        "value": 7,
-        "type": "y"
-      },
-      "blur": {
-        "value": 29,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "blur-strong-inverted": {
-      "x": {
-        "value": 0,
-        "type": "x"
-      },
-      "y": {
-        "value": 7,
-        "type": "y"
-      },
-      "blur": {
-        "value": 29,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#1a1a1a",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "solid-soft-standard": {
-      "x": {
-        "value": "3px",
-        "type": "x"
-      },
-      "y": {
-        "value": "3px",
+        "value": 3,
         "type": "y"
       },
       "blur": {
@@ -2302,7 +2358,7 @@
         "type": "spread"
       },
       "color": {
-        "value": "#192872",
+        "value": "#000000",
         "type": "color"
       },
       "type": {
@@ -2310,117 +2366,13 @@
         "type": "type"
       }
     },
-    "solid-soft-inverted": {
+    "solid-inverted": {
       "x": {
-        "value": "3px",
+        "value": 3,
         "type": "x"
       },
       "y": {
-        "value": "3px",
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#0b5db7",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "solid-soft-neutral": {
-      "x": {
-        "value": "3px",
-        "type": "x"
-      },
-      "y": {
-        "value": "3px",
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "solid-strong-standard": {
-      "x": {
-        "value": "5px",
-        "type": "x"
-      },
-      "y": {
-        "value": "5px",
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#192872",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "solid-strong-inverted": {
-      "x": {
-        "value": "5px",
-        "type": "x"
-      },
-      "y": {
-        "value": "5px",
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#0b5db7",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    },
-    "solid-strong-neutral": {
-      "x": {
-        "value": "5px",
-        "type": "x"
-      },
-      "y": {
-        "value": "5px",
+        "value": 3,
         "type": "y"
       },
       "blur": {
@@ -2512,6 +2464,10 @@
       "type": "spacing",
       "description": " "
     },
+    "25": {
+      "value": 25,
+      "type": "spacing"
+    },
     "30": {
       "value": 30,
       "type": "spacing",
@@ -2560,7 +2516,7 @@
       "description": " "
     }
   },
-  "doc-opt-color": {
+  "brk-opt-color-doc": {
     "main": {
       "value": "#7B61FF",
       "type": "color",

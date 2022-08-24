@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 02 Aug 2022 14:47:45 GMT
+// Generated on Wed, 24 Aug 2022 12:51:31 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -12,12 +12,13 @@
 
 #define BrkInteractiveOutlineColorFocusStandard #192872
 #define BrkInteractiveOutlineColorFocusInverted #abb6ed
+#define BrkInteractiveOutlineWidth 2
+#define BrkInteractiveOutlineOffset 5
 #define BrkButtonOpacityDisabled 50%
 #define BrkButtonPrimaryBorderWidth 0
 #define BrkButtonSecondaryBorderWidth 2
 #define BrkButtonTertiaryBorderWidth 0
 #define BrkButtonIconBorderWidth 0
-#define BrkButtonOutlineWidth 2
 #define BrkButtonTertiaryBoxShadowDefaultStandardX 0
 #define BrkButtonTertiaryBoxShadowDefaultStandardY 0
 #define BrkButtonTertiaryBoxShadowDefaultStandardBlur 0
@@ -42,18 +43,6 @@
 #define BrkButtonTertiaryBoxShadowHoverInvertedSpread 0
 #define BrkButtonTertiaryBoxShadowHoverInvertedColor #000000
 #define BrkButtonTertiaryBoxShadowHoverInvertedType dropShadow
-#define BrkButtonTertiaryBoxShadowActiveStandardX 0
-#define BrkButtonTertiaryBoxShadowActiveStandardY 0
-#define BrkButtonTertiaryBoxShadowActiveStandardBlur 0
-#define BrkButtonTertiaryBoxShadowActiveStandardSpread 0
-#define BrkButtonTertiaryBoxShadowActiveStandardColor #000000
-#define BrkButtonTertiaryBoxShadowActiveStandardType dropShadow
-#define BrkButtonTertiaryBoxShadowActiveInvertedX 0
-#define BrkButtonTertiaryBoxShadowActiveInvertedY 0
-#define BrkButtonTertiaryBoxShadowActiveInvertedBlur 0
-#define BrkButtonTertiaryBoxShadowActiveInvertedSpread 0
-#define BrkButtonTertiaryBoxShadowActiveInvertedColor #000000
-#define BrkButtonTertiaryBoxShadowActiveInvertedType dropShadow
 #define BrkButtonTertiaryBoxShadowFocusStandardX 0
 #define BrkButtonTertiaryBoxShadowFocusStandardY 0
 #define BrkButtonTertiaryBoxShadowFocusStandardBlur 0
@@ -225,14 +214,14 @@
 #define BrkJackpotHeroBackgroundColorStandard #121d54
 #define BrkJackpotHeroAmountDigitBorderRadius 1
 #define BrkJackpotHeroAmountDigitBorderWidth 0
-#define BrkCardHeroSmSubheadingFontFamily Graphik
-#define BrkCardHeroSmSubheadingFontWeight Bold
-#define BrkCardHeroSmSubheadingLineHeight 8
-#define BrkCardHeroSmSubheadingFontSize 8
-#define BrkCardHeroSmSubheadingLetterSpacing -2%
-#define BrkCardHeroSmSubheadingParagraphSpacing 0
-#define BrkCardHeroSmSubheadingTextCase uppercase
-#define BrkCardHeroSmSubheadingTextDecoration none
+#define BrkCardHeroSmPretitleFontFamily Graphik
+#define BrkCardHeroSmPretitleFontWeight Bold
+#define BrkCardHeroSmPretitleLineHeight 8
+#define BrkCardHeroSmPretitleFontSize 8
+#define BrkCardHeroSmPretitleLetterSpacing -2%
+#define BrkCardHeroSmPretitleParagraphSpacing 0
+#define BrkCardHeroSmPretitleTextCase uppercase
+#define BrkCardHeroSmPretitleTextDecoration none
 #define BrkCardHeroSmImageHeight 180
 #define BrkCardHeroSmPaddingHorizontal 10
 #define BrkCardHeroSmPaddingVertical 10
@@ -254,14 +243,14 @@
 #define BrkCardHeroSmBodyParagraphSpacing 0
 #define BrkCardHeroSmBodyTextCase none
 #define BrkCardHeroSmBodyTextDecoration none
-#define BrkCardHeroLgSubheadingFontFamily Graphik
-#define BrkCardHeroLgSubheadingFontWeight Bold
-#define BrkCardHeroLgSubheadingLineHeight 14
-#define BrkCardHeroLgSubheadingFontSize 14
-#define BrkCardHeroLgSubheadingLetterSpacing -2%
-#define BrkCardHeroLgSubheadingParagraphSpacing 0
-#define BrkCardHeroLgSubheadingTextCase uppercase
-#define BrkCardHeroLgSubheadingTextDecoration none
+#define BrkCardHeroLgPretitleFontFamily Graphik
+#define BrkCardHeroLgPretitleFontWeight Bold
+#define BrkCardHeroLgPretitleLineHeight 14
+#define BrkCardHeroLgPretitleFontSize 14
+#define BrkCardHeroLgPretitleLetterSpacing -2%
+#define BrkCardHeroLgPretitleParagraphSpacing 0
+#define BrkCardHeroLgPretitleTextCase uppercase
+#define BrkCardHeroLgPretitleTextDecoration none
 #define BrkCardHeroLgImageHeight 270
 #define BrkCardHeroLgPaddingHorizontal 24
 #define BrkCardHeroLgPaddingVertical 24
@@ -283,14 +272,14 @@
 #define BrkCardHeroLgBodyParagraphSpacing 0
 #define BrkCardHeroLgBodyTextCase none
 #define BrkCardHeroLgBodyTextDecoration none
-#define BrkCardHeroXlSubheadingFontFamily Graphik
-#define BrkCardHeroXlSubheadingFontWeight Bold
-#define BrkCardHeroXlSubheadingLineHeight 18
-#define BrkCardHeroXlSubheadingFontSize 18
-#define BrkCardHeroXlSubheadingLetterSpacing -2%
-#define BrkCardHeroXlSubheadingParagraphSpacing 0
-#define BrkCardHeroXlSubheadingTextCase uppercase
-#define BrkCardHeroXlSubheadingTextDecoration none
+#define BrkCardHeroXlPretitleFontFamily Graphik
+#define BrkCardHeroXlPretitleFontWeight Bold
+#define BrkCardHeroXlPretitleLineHeight 18
+#define BrkCardHeroXlPretitleFontSize 18
+#define BrkCardHeroXlPretitleLetterSpacing -2%
+#define BrkCardHeroXlPretitleParagraphSpacing 0
+#define BrkCardHeroXlPretitleTextCase uppercase
+#define BrkCardHeroXlPretitleTextDecoration none
 #define BrkCardHeroXlImageHeight 320
 #define BrkCardHeroXlPaddingHorizontal 24
 #define BrkCardHeroXlPaddingVertical 24
@@ -312,14 +301,14 @@
 #define BrkCardHeroXlBodyParagraphSpacing 0
 #define BrkCardHeroXlBodyTextCase none
 #define BrkCardHeroXlBodyTextDecoration none
-#define BrkCardHeroMdSubheadingFontFamily Graphik
-#define BrkCardHeroMdSubheadingFontWeight Bold
-#define BrkCardHeroMdSubheadingLineHeight 12
-#define BrkCardHeroMdSubheadingFontSize 12
-#define BrkCardHeroMdSubheadingLetterSpacing -2%
-#define BrkCardHeroMdSubheadingParagraphSpacing 0
-#define BrkCardHeroMdSubheadingTextCase uppercase
-#define BrkCardHeroMdSubheadingTextDecoration none
+#define BrkCardHeroMdPretitleFontFamily Graphik
+#define BrkCardHeroMdPretitleFontWeight Bold
+#define BrkCardHeroMdPretitleLineHeight 12
+#define BrkCardHeroMdPretitleFontSize 12
+#define BrkCardHeroMdPretitleLetterSpacing -2%
+#define BrkCardHeroMdPretitleParagraphSpacing 0
+#define BrkCardHeroMdPretitleTextCase uppercase
+#define BrkCardHeroMdPretitleTextDecoration none
 #define BrkCardHeroMdImageHeight 270
 #define BrkCardHeroMdPaddingHorizontal 16
 #define BrkCardHeroMdPaddingVertical 16
@@ -360,4 +349,36 @@
 #define BrkCardHeroBoxShadowDefaultHoverSpread 0
 #define BrkCardHeroBoxShadowDefaultHoverColor #e6e6e6
 #define BrkCardHeroBoxShadowDefaultHoverType dropShadow
+#define BrkButtonPrimarySmLabelFontFamily Graphik
+#define BrkButtonPrimarySmLabelFontWeight Medium
+#define BrkButtonPrimarySmLabelLineHeight 85%
+#define BrkButtonPrimarySmLabelFontSize 10
+#define BrkButtonPrimarySmLabelLetterSpacing 2%
+#define BrkButtonPrimarySmLabelParagraphSpacing 0
+#define BrkButtonPrimarySmLabelTextCase uppercase
+#define BrkButtonPrimarySmLabelTextDecoration none
+#define BrkButtonPrimaryMdLabelFontFamily Graphik
+#define BrkButtonPrimaryMdLabelFontWeight Medium
+#define BrkButtonPrimaryMdLabelLineHeight 85%
+#define BrkButtonPrimaryMdLabelFontSize 18
+#define BrkButtonPrimaryMdLabelLetterSpacing 2%
+#define BrkButtonPrimaryMdLabelParagraphSpacing 0
+#define BrkButtonPrimaryMdLabelTextCase uppercase
+#define BrkButtonPrimaryMdLabelTextDecoration none
+#define BrkButtonPrimaryLgLabelFontFamily Graphik
+#define BrkButtonPrimaryLgLabelFontWeight Medium
+#define BrkButtonPrimaryLgLabelLineHeight 85%
+#define BrkButtonPrimaryLgLabelFontSize 20
+#define BrkButtonPrimaryLgLabelLetterSpacing 2%
+#define BrkButtonPrimaryLgLabelParagraphSpacing 0
+#define BrkButtonPrimaryLgLabelTextCase uppercase
+#define BrkButtonPrimaryLgLabelTextDecoration none
+#define BrkButtonPrimaryXlLabelFontFamily Graphik
+#define BrkButtonPrimaryXlLabelFontWeight Medium
+#define BrkButtonPrimaryXlLabelLineHeight 85%
+#define BrkButtonPrimaryXlLabelFontSize 24
+#define BrkButtonPrimaryXlLabelLetterSpacing 2%
+#define BrkButtonPrimaryXlLabelParagraphSpacing 0
+#define BrkButtonPrimaryXlLabelTextCase uppercase
+#define BrkButtonPrimaryXlLabelTextDecoration none
 
