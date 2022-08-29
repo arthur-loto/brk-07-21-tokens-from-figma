@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 29 Aug 2022 15:19:41 GMT
+// Generated on Mon, 29 Aug 2022 15:28:49 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -15,115 +15,25 @@
 #define BrkButtonSecondaryBorderWidth 2
 #define BrkButtonTertiaryBorderWidth 2
 #define BrkButtonIconBorderWidth 1
-#define BrkButtonTertiaryBoxShadowDefaultStandardX 0
-#define BrkButtonTertiaryBoxShadowDefaultStandardY 0
-#define BrkButtonTertiaryBoxShadowDefaultStandardBlur 0
-#define BrkButtonTertiaryBoxShadowDefaultStandardSpread 0
-#define BrkButtonTertiaryBoxShadowDefaultStandardColor #000000
-#define BrkButtonTertiaryBoxShadowDefaultStandardType dropShadow
-#define BrkButtonTertiaryBoxShadowDefaultInvertedX 0
-#define BrkButtonTertiaryBoxShadowDefaultInvertedY 0
-#define BrkButtonTertiaryBoxShadowDefaultInvertedBlur 0
-#define BrkButtonTertiaryBoxShadowDefaultInvertedSpread 0
-#define BrkButtonTertiaryBoxShadowDefaultInvertedColor #000000
-#define BrkButtonTertiaryBoxShadowDefaultInvertedType dropShadow
-#define BrkButtonTertiaryBoxShadowHoverStandardX 0
-#define BrkButtonTertiaryBoxShadowHoverStandardY 0
-#define BrkButtonTertiaryBoxShadowHoverStandardBlur 0
-#define BrkButtonTertiaryBoxShadowHoverStandardSpread 0
-#define BrkButtonTertiaryBoxShadowHoverStandardColor #000000
-#define BrkButtonTertiaryBoxShadowHoverStandardType dropShadow
-#define BrkButtonTertiaryBoxShadowHoverInvertedX 0
-#define BrkButtonTertiaryBoxShadowHoverInvertedY 0
-#define BrkButtonTertiaryBoxShadowHoverInvertedBlur 0
-#define BrkButtonTertiaryBoxShadowHoverInvertedSpread 0
-#define BrkButtonTertiaryBoxShadowHoverInvertedColor #000000
-#define BrkButtonTertiaryBoxShadowHoverInvertedType dropShadow
-#define BrkButtonTertiaryBoxShadowFocusStandardX 0
-#define BrkButtonTertiaryBoxShadowFocusStandardY 0
-#define BrkButtonTertiaryBoxShadowFocusStandardBlur 0
-#define BrkButtonTertiaryBoxShadowFocusStandardSpread 0
-#define BrkButtonTertiaryBoxShadowFocusStandardColor #000000
-#define BrkButtonTertiaryBoxShadowFocusStandardType dropShadow
-#define BrkButtonTertiaryBoxShadowFocusInvertedX 0
-#define BrkButtonTertiaryBoxShadowFocusInvertedY 0
-#define BrkButtonTertiaryBoxShadowFocusInvertedBlur 0
-#define BrkButtonTertiaryBoxShadowFocusInvertedSpread 0
-#define BrkButtonTertiaryBoxShadowFocusInvertedColor #000000
-#define BrkButtonTertiaryBoxShadowFocusInvertedType dropShadow
+#define BrkButtonTertiaryBoxShadowDefaultStandard [object Object]
+#define BrkButtonTertiaryBoxShadowDefaultInverted [object Object]
+#define BrkButtonTertiaryBoxShadowHoverStandard [object Object]
+#define BrkButtonTertiaryBoxShadowHoverInverted [object Object]
+#define BrkButtonTertiaryBoxShadowFocusStandard [object Object]
+#define BrkButtonTertiaryBoxShadowFocusInverted [object Object]
 #define BrkButtonOpacityDisabled 50%
-#define BrkButtonPrimaryBoxShadowDefaultStandardX 3
-#define BrkButtonPrimaryBoxShadowDefaultStandardY 3
-#define BrkButtonPrimaryBoxShadowDefaultStandardBlur 0
-#define BrkButtonPrimaryBoxShadowDefaultStandardSpread 0
-#define BrkButtonPrimaryBoxShadowDefaultStandardColor #000000
-#define BrkButtonPrimaryBoxShadowDefaultStandardType dropShadow
-#define BrkButtonPrimaryBoxShadowDefaultInvertedX 3
-#define BrkButtonPrimaryBoxShadowDefaultInvertedY 3
-#define BrkButtonPrimaryBoxShadowDefaultInvertedBlur 0
-#define BrkButtonPrimaryBoxShadowDefaultInvertedSpread 0
-#define BrkButtonPrimaryBoxShadowDefaultInvertedColor #ffffff
-#define BrkButtonPrimaryBoxShadowDefaultInvertedType dropShadow
-#define BrkButtonPrimaryBoxShadowHoverStandardX 0
-#define BrkButtonPrimaryBoxShadowHoverStandardY 0
-#define BrkButtonPrimaryBoxShadowHoverStandardBlur 0
-#define BrkButtonPrimaryBoxShadowHoverStandardSpread 0
-#define BrkButtonPrimaryBoxShadowHoverStandardColor #000000
-#define BrkButtonPrimaryBoxShadowHoverStandardType dropShadow
-#define BrkButtonPrimaryBoxShadowHoverInvertedX 0
-#define BrkButtonPrimaryBoxShadowHoverInvertedY 0
-#define BrkButtonPrimaryBoxShadowHoverInvertedBlur 0
-#define BrkButtonPrimaryBoxShadowHoverInvertedSpread 0
-#define BrkButtonPrimaryBoxShadowHoverInvertedColor #000000
-#define BrkButtonPrimaryBoxShadowHoverInvertedType dropShadow
-#define BrkButtonPrimaryBoxShadowFocusStandardX 0
-#define BrkButtonPrimaryBoxShadowFocusStandardY 0
-#define BrkButtonPrimaryBoxShadowFocusStandardBlur 0
-#define BrkButtonPrimaryBoxShadowFocusStandardSpread 0
-#define BrkButtonPrimaryBoxShadowFocusStandardColor #000000
-#define BrkButtonPrimaryBoxShadowFocusStandardType dropShadow
-#define BrkButtonPrimaryBoxShadowFocusInvertedX 0
-#define BrkButtonPrimaryBoxShadowFocusInvertedY 0
-#define BrkButtonPrimaryBoxShadowFocusInvertedBlur 0
-#define BrkButtonPrimaryBoxShadowFocusInvertedSpread 0
-#define BrkButtonPrimaryBoxShadowFocusInvertedColor #000000
-#define BrkButtonPrimaryBoxShadowFocusInvertedType dropShadow
-#define BrkButtonSecondaryBoxShadowDefaultStandardX 3
-#define BrkButtonSecondaryBoxShadowDefaultStandardY 3
-#define BrkButtonSecondaryBoxShadowDefaultStandardBlur 0
-#define BrkButtonSecondaryBoxShadowDefaultStandardSpread 0
-#define BrkButtonSecondaryBoxShadowDefaultStandardColor #000000
-#define BrkButtonSecondaryBoxShadowDefaultStandardType dropShadow
-#define BrkButtonSecondaryBoxShadowDefaultInvertedX 3
-#define BrkButtonSecondaryBoxShadowDefaultInvertedY 3
-#define BrkButtonSecondaryBoxShadowDefaultInvertedBlur 0
-#define BrkButtonSecondaryBoxShadowDefaultInvertedSpread 0
-#define BrkButtonSecondaryBoxShadowDefaultInvertedColor #ffffff
-#define BrkButtonSecondaryBoxShadowDefaultInvertedType dropShadow
-#define BrkButtonSecondaryBoxShadowHoverStandardX 0
-#define BrkButtonSecondaryBoxShadowHoverStandardY 0
-#define BrkButtonSecondaryBoxShadowHoverStandardBlur 0
-#define BrkButtonSecondaryBoxShadowHoverStandardSpread 0
-#define BrkButtonSecondaryBoxShadowHoverStandardColor #000000
-#define BrkButtonSecondaryBoxShadowHoverStandardType dropShadow
-#define BrkButtonSecondaryBoxShadowHoverInvertedX 0
-#define BrkButtonSecondaryBoxShadowHoverInvertedY 0
-#define BrkButtonSecondaryBoxShadowHoverInvertedBlur 0
-#define BrkButtonSecondaryBoxShadowHoverInvertedSpread 0
-#define BrkButtonSecondaryBoxShadowHoverInvertedColor #000000
-#define BrkButtonSecondaryBoxShadowHoverInvertedType dropShadow
-#define BrkButtonSecondaryBoxShadowFocusStandardX 0
-#define BrkButtonSecondaryBoxShadowFocusStandardY 0
-#define BrkButtonSecondaryBoxShadowFocusStandardBlur 0
-#define BrkButtonSecondaryBoxShadowFocusStandardSpread 0
-#define BrkButtonSecondaryBoxShadowFocusStandardColor #000000
-#define BrkButtonSecondaryBoxShadowFocusStandardType dropShadow
-#define BrkButtonSecondaryBoxShadowFocusInvertedX 0
-#define BrkButtonSecondaryBoxShadowFocusInvertedY 0
-#define BrkButtonSecondaryBoxShadowFocusInvertedBlur 0
-#define BrkButtonSecondaryBoxShadowFocusInvertedSpread 0
-#define BrkButtonSecondaryBoxShadowFocusInvertedColor #000000
-#define BrkButtonSecondaryBoxShadowFocusInvertedType dropShadow
+#define BrkButtonPrimaryBoxShadowDefaultStandard [object Object]
+#define BrkButtonPrimaryBoxShadowDefaultInverted [object Object]
+#define BrkButtonPrimaryBoxShadowHoverStandard [object Object]
+#define BrkButtonPrimaryBoxShadowHoverInverted [object Object]
+#define BrkButtonPrimaryBoxShadowFocusStandard [object Object]
+#define BrkButtonPrimaryBoxShadowFocusInverted [object Object]
+#define BrkButtonSecondaryBoxShadowDefaultStandard [object Object]
+#define BrkButtonSecondaryBoxShadowDefaultInverted [object Object]
+#define BrkButtonSecondaryBoxShadowHoverStandard [object Object]
+#define BrkButtonSecondaryBoxShadowHoverInverted [object Object]
+#define BrkButtonSecondaryBoxShadowFocusStandard [object Object]
+#define BrkButtonSecondaryBoxShadowFocusInverted [object Object]
 #define BrkButtonTertiarySmLabelFontFamily Graphik
 #define BrkButtonTertiarySmLabelFontWeight Bold
 #define BrkButtonTertiarySmLabelLineHeight 100%
@@ -198,18 +108,8 @@
 #define BrkCardHeroBodyFontColorStandard #1a1a1a
 #define BrkCardHeroBackgroundColorStandard #ffffff
 #define BrkCardHeroBorderColorStandard #e6e6e6
-#define BrkCardHeroBoxShadowDefaultStandardX 0
-#define BrkCardHeroBoxShadowDefaultStandardY 0
-#define BrkCardHeroBoxShadowDefaultStandardBlur 0
-#define BrkCardHeroBoxShadowDefaultStandardSpread 0
-#define BrkCardHeroBoxShadowDefaultStandardColor #000000
-#define BrkCardHeroBoxShadowDefaultStandardType dropShadow
-#define BrkCardHeroBoxShadowDefaultHoverX 0
-#define BrkCardHeroBoxShadowDefaultHoverY 2
-#define BrkCardHeroBoxShadowDefaultHoverBlur 8
-#define BrkCardHeroBoxShadowDefaultHoverSpread 0
-#define BrkCardHeroBoxShadowDefaultHoverColor #e6e6e6
-#define BrkCardHeroBoxShadowDefaultHoverType dropShadow
+#define BrkCardHeroBoxShadowDefaultStandard [object Object]
+#define BrkCardHeroBoxShadowDefaultHover [object Object]
 #define BrkCardHeroSmPaddingHorizontal 10
 #define BrkCardHeroSmPaddingVertical 10
 #define BrkCardHeroSmHeadingMarginVertical 4

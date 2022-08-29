@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Aug 2022 15:19:41 GMT
+ * Generated on Mon, 29 Aug 2022 15:28:49 GMT
  */
 
 :root {
@@ -54,42 +54,12 @@
   --brk-button-tertiary-border-color-hover-inverted: transparent;
   --brk-button-tertiary-border-color-hover-standard: transparent;
   --brk-button-tertiary-border-width: 0px;
-  --brk-button-tertiary-box-shadow-default-inverted-blur: 0;
-  --brk-button-tertiary-box-shadow-default-inverted-color: #000000;
-  --brk-button-tertiary-box-shadow-default-inverted-spread: 0;
-  --brk-button-tertiary-box-shadow-default-inverted-type: dropShadow;
-  --brk-button-tertiary-box-shadow-default-inverted-x: 0;
-  --brk-button-tertiary-box-shadow-default-inverted-y: 0;
-  --brk-button-tertiary-box-shadow-default-standard-blur: 0;
-  --brk-button-tertiary-box-shadow-default-standard-color: #000000;
-  --brk-button-tertiary-box-shadow-default-standard-spread: 0;
-  --brk-button-tertiary-box-shadow-default-standard-type: dropShadow;
-  --brk-button-tertiary-box-shadow-default-standard-x: 0;
-  --brk-button-tertiary-box-shadow-default-standard-y: 0;
-  --brk-button-tertiary-box-shadow-focus-inverted-blur: 0;
-  --brk-button-tertiary-box-shadow-focus-inverted-color: #000000;
-  --brk-button-tertiary-box-shadow-focus-inverted-spread: 0;
-  --brk-button-tertiary-box-shadow-focus-inverted-type: dropShadow;
-  --brk-button-tertiary-box-shadow-focus-inverted-x: 0;
-  --brk-button-tertiary-box-shadow-focus-inverted-y: 0;
-  --brk-button-tertiary-box-shadow-focus-standard-blur: 0;
-  --brk-button-tertiary-box-shadow-focus-standard-color: #000000;
-  --brk-button-tertiary-box-shadow-focus-standard-spread: 0;
-  --brk-button-tertiary-box-shadow-focus-standard-type: dropShadow;
-  --brk-button-tertiary-box-shadow-focus-standard-x: 0;
-  --brk-button-tertiary-box-shadow-focus-standard-y: 0;
-  --brk-button-tertiary-box-shadow-hover-inverted-blur: 0;
-  --brk-button-tertiary-box-shadow-hover-inverted-color: #000000;
-  --brk-button-tertiary-box-shadow-hover-inverted-spread: 0;
-  --brk-button-tertiary-box-shadow-hover-inverted-type: dropShadow;
-  --brk-button-tertiary-box-shadow-hover-inverted-x: 0;
-  --brk-button-tertiary-box-shadow-hover-inverted-y: 0;
-  --brk-button-tertiary-box-shadow-hover-standard-blur: 0;
-  --brk-button-tertiary-box-shadow-hover-standard-color: #000000;
-  --brk-button-tertiary-box-shadow-hover-standard-spread: 0;
-  --brk-button-tertiary-box-shadow-hover-standard-type: dropShadow;
-  --brk-button-tertiary-box-shadow-hover-standard-x: 0;
-  --brk-button-tertiary-box-shadow-hover-standard-y: 0;
+  --brk-button-tertiary-box-shadow-default-inverted: 0px 0px 0px 0px #000000;
+  --brk-button-tertiary-box-shadow-default-standard: 0px 0px 0px 0px #000000;
+  --brk-button-tertiary-box-shadow-focus-inverted: 0px 0px 0px 0px #000000;
+  --brk-button-tertiary-box-shadow-focus-standard: 0px 0px 0px 0px #000000;
+  --brk-button-tertiary-box-shadow-hover-inverted: 0px 0px 0px 0px #000000;
+  --brk-button-tertiary-box-shadow-hover-standard: 0px 0px 0px 0px #000000;
   --brk-button-tertiary-font-color-default-inverted: #000000;
   --brk-button-tertiary-font-color-default-standard: #000000;
   --brk-button-tertiary-font-color-focus-inverted: #000000;
@@ -141,18 +111,8 @@
   --brk-card-hero-border-color-standard: #000000;
   --brk-card-hero-border-radius: 0px;
   --brk-card-hero-border-width: 1px;
-  --brk-card-hero-box-shadow-default-hover-blur: 8;
-  --brk-card-hero-box-shadow-default-hover-color: #1a1a1a;
-  --brk-card-hero-box-shadow-default-hover-spread: 0;
-  --brk-card-hero-box-shadow-default-hover-type: dropShadow;
-  --brk-card-hero-box-shadow-default-hover-x: 0;
-  --brk-card-hero-box-shadow-default-hover-y: 2;
-  --brk-card-hero-box-shadow-default-standard-blur: 0;
-  --brk-card-hero-box-shadow-default-standard-color: #000000;
-  --brk-card-hero-box-shadow-default-standard-spread: 0;
-  --brk-card-hero-box-shadow-default-standard-type: dropShadow;
-  --brk-card-hero-box-shadow-default-standard-x: 0;
-  --brk-card-hero-box-shadow-default-standard-y: 0;
+  --brk-card-hero-box-shadow-default-hover: 0px 2px 8px 0px #1a1a1a;
+  --brk-card-hero-box-shadow-default-standard: 0px 0px 0px 0px #000000;
   --brk-card-hero-heading-font-color-standard: #ffffff;
   --brk-card-hero-lg-body-font-family: Roboto Condensed;
   --brk-card-hero-lg-body-font-size: 14px;

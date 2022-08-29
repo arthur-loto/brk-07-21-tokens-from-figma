@@ -27,160 +27,76 @@
     },
     "tertiary-box-shadow": {
       "default-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       },
       "default-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       },
       "hover-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "hover-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "focus-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       },
       "focus-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       }
     },
     "opacity-disabled": {
@@ -190,318 +106,150 @@
     },
     "primary-box-shadow": {
       "default-standard": {
-        "x": {
-          "value": 3,
-          "type": "x"
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 3,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "default-inverted": {
-        "x": {
-          "value": 3,
-          "type": "x"
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 0,
+          "spread": 0,
+          "color": "#ffffff",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 3,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "hover-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "hover-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "focus-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       },
       "focus-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       }
     },
     "secondary-box-shadow": {
       "default-standard": {
-        "x": {
-          "value": 3,
-          "type": "x"
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 3,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "default-inverted": {
-        "x": {
-          "value": 3,
-          "type": "x"
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 0,
+          "spread": 0,
+          "color": "#ffffff",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 3,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "hover-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "hover-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Ombre portée du bouton."
       },
       "focus-standard": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       },
       "focus-inverted": {
-        "x": {
-          "value": 0,
-          "type": "x"
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
         },
-        "y": {
-          "value": 0,
-          "type": "y"
-        },
-        "blur": {
-          "value": 0,
-          "type": "blur"
-        },
-        "spread": {
-          "value": 0,
-          "type": "spread"
-        },
-        "color": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "type": {
-          "value": "dropShadow",
-          "type": "type"
-        }
+        "type": "boxShadow",
+        "description": "Pas d'ombre portée."
       }
     }
   },
@@ -855,56 +603,28 @@
       "description": " "
     },
     "box-shadow-default-standard": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "#000000",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 0,
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": "Élevation de la carte en état par défaut sur un fond pâle."
     },
     "box-shadow-default-hover": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "value": {
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0,
+        "color": "#e6e6e6",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": "Élevation de la carte en état de survol sur un fond pâle."
     },
     "sm": {
       "padding-horizontal": {
@@ -2823,134 +2543,64 @@
   },
   "brk-opt-box-shadow": {
     "none": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "#000000",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 0,
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": " "
     },
     "blur-standard": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "value": {
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0,
+        "color": "#e6e6e6",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e6e6e6",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": " "
     },
     "blur-inverted": {
-      "x": {
-        "value": 0,
-        "type": "x"
+      "value": {
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0,
+        "color": "#1a1a1a",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 2,
-        "type": "y"
-      },
-      "blur": {
-        "value": 8,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#1a1a1a",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": " "
     },
     "solid-standard": {
-      "x": {
-        "value": 3,
-        "type": "x"
+      "value": {
+        "x": 3,
+        "y": 3,
+        "blur": 0,
+        "spread": 0,
+        "color": "#000000",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 3,
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": " "
     },
     "solid-inverted": {
-      "x": {
-        "value": 3,
-        "type": "x"
+      "value": {
+        "x": 3,
+        "y": 3,
+        "blur": 0,
+        "spread": 0,
+        "color": "#ffffff",
+        "type": "dropShadow"
       },
-      "y": {
-        "value": 3,
-        "type": "y"
-      },
-      "blur": {
-        "value": 0,
-        "type": "blur"
-      },
-      "spread": {
-        "value": 0,
-        "type": "spread"
-      },
-      "color": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
+      "type": "boxShadow",
+      "description": " "
     }
   },
   "brk-opt-space": {
