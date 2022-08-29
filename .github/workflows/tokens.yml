@@ -12,13 +12,13 @@ jobs:
       # Install dependencies
       - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer data/tokens.json transformer-output/options.json options --expandTypography=true --expandShadow=true
+      - run: npx token-transformer data/tokens.json transformer-output/options.json options --expandTypography=true
       # Create a standard theme white label (MB), exclude the global tokens
-      - run: npx token-transformer data/tokens.json transformer-output/decisions-lq.json options,decisions-lq,theme global --expandTypography=true --expandShadow=true
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-lq.json options,decisions-lq,theme global --expandTypography=true
       # Create an inverted theme MOJ, exclude the global tokens
-      - run: npx token-transformer data/tokens.json transformer-output/decisions-moj.json options,decisions-moj,theme global --expandTypography=true --expandShadow=true
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-moj.json options,decisions-moj,theme global --expandTypography=true
       # Create a standard theme JEL, exclude the global tokens
-      - run: npx token-transformer data/tokens.json transformer-output/decisions-jel.json options,decisions-jel,theme global --expandTypography=true --expandShadow=true
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-jel.json options,decisions-jel,theme global --expandTypography=true
 
       # Convert tokens according to Style Dictionary config
       - run: node build.js
