@@ -1,0 +1,43 @@
+name: CI
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+      # Install dependencies
+      - run: npm install
+      # Transform Figma Tokens JSON to something Style Dictionary can read
+      - run: npx token-transformer data/tokens.json transformer-output/options.json options --expandTypography=true
+      # Create a standard theme white label (MB), exclude the global tokens
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-lq.json options,decisions-lq,theme global --expandTypography=true
+      # Create an inverted theme MOJ, exclude the global tokens
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-moj.json options,decisions-moj,theme global --expandTypography=true
+      # Create a standard theme JEL, exclude the global tokens
+      - run: npx token-transformer data/tokens.json transformer-output/decisions-jel.json options,decisions-jel,theme global --expandTypography=true
+
+      # Convert tokens according to Style Dictionary config
+      - run: node build.js
+      # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: 'Update depuis Figma Test'
+          
+      # Pushes content from build directory to test-tokens-npm
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build'
+          destination-github-username: 'arthur-loto'
+          destination-repository-name: 'brk-07-21-tokens-to-npm-'
+          target-directory: 'mes_tokens'
+          user-email: arthur.rigaud@loto-quebec.com
+          target-branch: dev
+          commit-message: '[MAJ_Auto] Depuis Figma via SD'
