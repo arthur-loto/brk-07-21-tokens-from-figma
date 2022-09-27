@@ -1,22 +1,17 @@
 {
   "brk-button": {
-    "border-radius": {
-      "value": 24,
-      "type": "borderRadius",
-      "description": " "
-    },
     "primary-border-width": {
       "value": 2,
       "type": "borderWidth",
       "description": " "
     },
     "secondary-border-width": {
-      "value": 2,
+      "value": 1,
       "type": "borderWidth",
       "description": " "
     },
     "tertiary-border-width": {
-      "value": 2,
+      "value": 1,
       "type": "borderWidth",
       "description": " "
     },
@@ -25,111 +20,272 @@
       "type": "borderWidth",
       "description": " "
     },
-    "tertiary-box-shadow": {
-      "default-standard": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      },
-      "default-inverted": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      },
-      "hover-standard": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
-      },
-      "hover-inverted": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
-      },
-      "focus-standard": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      },
-      "focus-inverted": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      }
-    },
     "opacity-disabled": {
       "value": "50%",
       "type": "opacity",
       "description": " "
-    },
-    "primary-box-shadow": {
-      "default-standard": {
+    }
+  },
+  "brk-button-tertiary-standard": {
+    "sm-box-shadow": {
+      "default": {
         "value": {
-          "x": 3,
-          "y": 3,
+          "x": 0,
+          "y": 0,
           "blur": 0,
           "spread": 0,
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "default-inverted": {
+      "hover": {
         "value": {
-          "x": 3,
-          "y": 3,
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focus": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "font-color-default": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-default": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-button-tertiary-inverted": {
+    "sm-box-shadow": {
+      "default": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focus": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "font-color-default": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-default": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-button-primary-standard": {
+    "sm-box-shadow": {
+      "default": {
+        "value": {
+          "x": 2,
+          "y": 2,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focus": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "font-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#fdfe8b",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#24c1ff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#0b5db7",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-button-primary-inverted": {
+    "sm-box-shadow": {
+      "default": {
+        "value": {
+          "x": 2,
+          "y": 2,
           "blur": 0,
           "spread": 0,
           "color": "#ffffff",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "hover-standard": {
+      "hover": {
         "value": {
           "x": 0,
           "y": 0,
@@ -138,10 +294,9 @@
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "hover-inverted": {
+      "focus": {
         "value": {
           "x": 0,
           "y": 0,
@@ -150,60 +305,151 @@
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
-      },
-      "focus-standard": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      },
-      "focus-inverted": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
+        "type": "boxShadow"
       }
     },
-    "secondary-box-shadow": {
-      "default-standard": {
+    "font-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#fdfe8b",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#a6ecff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#eaedfa",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-button-secondary-standard": {
+    "sm-box-shadow": {
+      "default": {
         "value": {
-          "x": 3,
-          "y": 3,
+          "x": 2,
+          "y": 2,
           "blur": 0,
           "spread": 0,
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "default-inverted": {
+      "hover": {
         "value": {
-          "x": 3,
-          "y": 3,
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focus": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "font-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " NOTE : la couleur du fond des boutons secondaires JEL est transparente. Dans Figma, on est obligé d'utiliser une couleur pour représenter le bouton, mais pas pour le code."
+    },
+    "border-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-button-secondary-inverted": {
+    "sm-box-shadow": {
+      "default": {
+        "value": {
+          "x": 2,
+          "y": 2,
           "blur": 0,
           "spread": 0,
           "color": "#ffffff",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "hover-standard": {
+      "hover": {
         "value": {
           "x": 0,
           "y": 0,
@@ -212,10 +458,9 @@
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
+        "type": "boxShadow"
       },
-      "hover-inverted": {
+      "focus": {
         "value": {
           "x": 0,
           "y": 0,
@@ -224,33 +469,53 @@
           "color": "#000000",
           "type": "dropShadow"
         },
-        "type": "boxShadow",
-        "description": "Ombre portée du bouton."
-      },
-      "focus-standard": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
-      },
-      "focus-inverted": {
-        "value": {
-          "x": 0,
-          "y": 0,
-          "blur": 0,
-          "spread": 0,
-          "color": "#000000",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Pas d'ombre portée."
+        "type": "boxShadow"
       }
+    },
+    "font-color-default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-default": {
+      "value": "#000000",
+      "type": "color",
+      "description": " NOTE : la couleur du fond des boutons secondaires JEL est transparente. Dans Figma, on est obligé d'utiliser une couleur pour représenter le bouton, mais pas pour le code."
+    },
+    "border-color-default": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-hover": {
+      "value": "#0b5db7",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-hover": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "font-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color-focus": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "border-color-focus": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
     }
   },
   "brk-button-tertiary": {
@@ -272,7 +537,7 @@
         "type": "fontSize"
       },
       "letterSpacing": {
-        "value": "2%",
+        "value": "0%",
         "type": "letterSpacing"
       },
       "paragraphSpacing": {
@@ -302,11 +567,11 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 15,
+        "value": 14,
         "type": "fontSize"
       },
       "letterSpacing": {
-        "value": "2%",
+        "value": "0%",
         "type": "letterSpacing"
       },
       "paragraphSpacing": {
@@ -336,11 +601,11 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 20,
+        "value": 18,
         "type": "fontSize"
       },
       "letterSpacing": {
-        "value": "2%",
+        "value": "0%",
         "type": "letterSpacing"
       },
       "paragraphSpacing": {
@@ -370,11 +635,11 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 25,
+        "value": 22,
         "type": "fontSize"
       },
       "letterSpacing": {
-        "value": "2%",
+        "value": "0%",
         "type": "letterSpacing"
       },
       "paragraphSpacing": {
@@ -403,6 +668,14 @@
       "border-radius": {
         "value": 15,
         "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 4,
+        "type": "spacing"
       }
     },
     "md": {
@@ -418,6 +691,14 @@
       "border-radius": {
         "value": 20,
         "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 6,
+        "type": "spacing"
       }
     },
     "lg": {
@@ -433,6 +714,14 @@
       "border-radius": {
         "value": 25,
         "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 8,
+        "type": "spacing"
       }
     },
     "xl": {
@@ -448,106 +737,24 @@
       "border-radius": {
         "value": 30,
         "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 10,
+        "type": "spacing"
       }
-    },
-    "font-color-default-standard": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-default-inverted": {
-      "value": "#e6e6e6",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-default-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-default-inverted": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-standard": {
-      "value": "#e6e6e6",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-inverted": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-hover-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-hover-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-hover-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-hover-inverted": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-standard": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-inverted": {
-      "value": "#eaedfa",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-focus-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-focus-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-focus-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-focus-inverted": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-focus-standard": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-focus-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
     }
   },
   "brk-interactive": {
-    "outline-color-focus-standard": {
+    "standard-outline-color-focus": {
       "value": "#0b5db7",
       "type": "color",
       "description": " "
     },
-    "outline-color-focus-inverted": {
+    "inverted-outline-color-focus": {
       "value": "#24c1ff",
       "type": "color",
       "description": " "
@@ -576,55 +783,6 @@
       "value": 1,
       "type": "borderWidth",
       "description": " "
-    },
-    "heading-font-color-standard": {
-      "value": "#060606",
-      "type": "color",
-      "description": " "
-    },
-    "subheading-font-color-standard": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "body-font-color-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-standard": {
-      "value": "#e6e6e6",
-      "type": "color",
-      "description": " "
-    },
-    "box-shadow-default-standard": {
-      "value": {
-        "x": 0,
-        "y": 0,
-        "blur": 0,
-        "spread": 0,
-        "color": "#000000",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "description": "Élevation de la carte en état par défaut sur un fond pâle."
-    },
-    "box-shadow-default-hover": {
-      "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 8,
-        "spread": 0,
-        "color": "#e6e6e6",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "description": "Élevation de la carte en état de survol sur un fond pâle."
     },
     "sm": {
       "padding-horizontal": {
@@ -691,7 +849,7 @@
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "100%",
+          "value": 12,
           "type": "lineHeight"
         },
         "fontSize": {
@@ -699,7 +857,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -717,7 +875,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -733,7 +891,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -828,7 +986,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -846,7 +1004,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -862,7 +1020,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -957,7 +1115,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -975,7 +1133,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -991,7 +1149,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -1086,7 +1244,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "-2%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -1104,7 +1262,7 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -1117,6 +1275,174 @@
         },
         "fontSize": {
           "value": 20,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "image-height": {
+        "value": 360,
+        "type": "sizing",
+        "description": " "
+      }
+    }
+  },
+  "brk-promo": {
+    "secondary-border-radius": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": " "
+    },
+    "tertiary-frame-border-radius": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": " "
+    },
+    "primary-border-width": {
+      "value": 1,
+      "type": "borderWidth",
+      "description": " "
+    },
+    "secondary-border-width": {
+      "value": 1,
+      "type": "borderWidth",
+      "description": " "
+    },
+    "tertiary-border-width": {
+      "value": 1,
+      "type": "borderWidth",
+      "description": " "
+    }
+  },
+  "brk-promo-secondary": {
+    "sm": {
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 15,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 4,
+        "type": "spacing",
+        "description": " "
+      },
+      "image-height": {
+        "value": 172,
+        "type": "sizing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 12,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "gradient-height": {
+        "value": 43,
+        "type": "sizing",
+        "description": " "
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "115%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 40,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "120%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
           "type": "fontSize"
         },
         "letterSpacing": {
@@ -1135,19 +1461,1015 @@
           "value": "none",
           "type": "textCase"
         }
-      },
+      }
+    },
+    "xl": {
       "image-height": {
-        "value": 320,
+        "value": 568,
+        "type": "sizing",
+        "description": " NOTE : la valeur assignée à ce token est seulement pour Figma. À partir du dernier point de rupture, la composition de la promo secondaire devient horizontale. La hauteur de l'image sera déterminée alors par la hauteur du composant."
+      },
+      "gradient-height": {
+        "value": 142,
         "type": "sizing",
         "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "container-width": {
+        "value": 312,
+        "type": "sizing",
+        "description": " "
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 15,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    },
+    "md": {
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 20,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 8,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 67.5,
+        "type": "sizing",
+        "description": " "
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 12,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    },
+    "lg": {
+      "image-height": {
+        "value": 300,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 75,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 15,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
       }
     }
   },
-  "brk-doc-card-hero": {
-    "image-border-radius": {
-      "value": 16,
-      "type": "borderRadius",
-      "description": "NOTE: token de documentation, uniquement pour les designers."
+  "brk-promo-primary": {
+    "sm": {
+      "image-height": {
+        "value": 172,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 43,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 15,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 4,
+        "type": "spacing",
+        "description": " "
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "115%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "title": {
+        "padding-bottom": {
+          "value": 8,
+          "type": "spacing",
+          "description": " "
+        }
+      },
+      "content-margin-bottom": {
+        "value": 12,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "120%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    },
+    "xl": {
+      "image-height": {
+        "value": 568,
+        "type": "sizing",
+        "description": " NOTE : la valeur assignée à ce token est seulement pour Figma. À partir du dernier point de rupture, la composition de la promo secondaire devient horizontale. La hauteur de l'image sera déterminée alors par la hauteur du composant."
+      },
+      "gradient-height": {
+        "value": 142,
+        "type": "sizing",
+        "description": " "
+      },
+      "container-width": {
+        "value": 312,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 8,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 15,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    },
+    "md": {
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 67.5,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 20,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 8,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 12,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    },
+    "lg": {
+      "image-height": {
+        "value": 300,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 75,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 8,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": "  NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "pretitle": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 15,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "heading": {
+        "fontFamily": {
+          "value": "Graphik",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Super",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "-2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Arial",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": "2%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    }
+  },
+  "brk-card-hero-standard": {
+    "box-shadow": {
+      "default": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 0,
+          "y": 2,
+          "blur": 8,
+          "spread": 0,
+          "color": "#e6e6e6",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "pretitle-font-color": {
+      "value": "#535353",
+      "type": "color",
+      "description": " "
+    },
+    "heading-font-color": {
+      "value": "#060606",
+      "type": "color",
+      "description": " "
+    },
+    "body-font-color": {
+      "value": "#1a1a1a",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
     }
   },
   "brk-jackpot-hero": {
@@ -1208,11 +2530,11 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -1224,7 +2546,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "0%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -1313,11 +2635,11 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -1329,7 +2651,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "0%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -1418,11 +2740,11 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -1523,11 +2845,11 @@
       },
       "body": {
         "fontFamily": {
-          "value": "Graphik",
+          "value": "Arial",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -1539,7 +2861,7 @@
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "2%",
+          "value": "0%",
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
@@ -1576,49 +2898,51 @@
       "type": "borderWidth",
       "description": "NOTE: Grosseur du contour de la boîte qui contient les numéros du lot progressif."
     },
-    "heading-font-color-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "body-font-color-standard": {
-      "value": "#090f2a",
-      "type": "color",
-      "description": " "
-    },
-    "body-font-color-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "body-box-background-color-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "body-box-border-color-standard": {
-      "value": "transparent",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-standard": {
-      "value": "#060606",
-      "type": "color",
-      "description": " "
-    },
     "amount-digit-border-radius": {
       "value": 4,
       "type": "borderRadius",
       "description": " NOTE: Rayon du contour de la boîte qui contient les numéros du lot progressif."
     }
   },
-  "brk-doc": {
-    "background-color-standard": {
+  "brk-jackpot-hero-standard": {
+    "heading-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-inverted": {
+    "body-font-color": {
+      "value": "#090f2a",
+      "type": "color",
+      "description": " "
+    },
+    "body-box-background-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "body-box-border-color": {
+      "value": "transparent",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
+      "value": "#060606",
+      "type": "color",
+      "description": " "
+    },
+    "symbol-font-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-doc": {
+    "standard-background-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "inverted-background-color": {
       "value": "#1a1a1a",
       "type": "color",
       "description": " "
@@ -1626,150 +2950,104 @@
   },
   "brk-button-primary": {
     "sm": {
-      "padding-vertical": {
-        "value": 10,
-        "type": "spacing",
-        "description": " "
-      },
       "padding-horizontal": {
         "value": 15,
         "type": "spacing",
         "description": " "
+      },
+      "height": {
+        "value": 30,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 15,
+        "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 4,
+        "type": "spacing"
       }
     },
     "md": {
-      "padding-vertical": {
-        "value": 16,
-        "type": "spacing",
-        "description": " "
-      },
       "padding-horizontal": {
         "value": 32,
         "type": "spacing",
         "description": " "
+      },
+      "height": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 20,
+        "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 6,
+        "type": "spacing"
       }
     },
     "lg": {
-      "padding-vertical": {
-        "value": 16,
-        "type": "spacing",
-        "description": " "
-      },
       "padding-horizontal": {
         "value": 32,
         "type": "spacing",
         "description": " "
+      },
+      "height": {
+        "value": 50,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 25,
+        "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 8,
+        "type": "spacing"
       }
     },
     "xl": {
-      "padding-vertical": {
-        "value": 20,
-        "type": "spacing",
-        "description": " "
-      },
       "padding-horizontal": {
         "value": 40,
         "type": "spacing",
         "description": " "
+      },
+      "height": {
+        "value": 60,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 30,
+        "type": "borderRadius"
+      },
+      "icon-height": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 10,
+        "type": "spacing"
       }
-    },
-    "font-color-default-standard": {
-      "value": "#000000",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-default-inverted": {
-      "value": "#000000",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-default-standard": {
-      "value": "#fdfe8b",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-default-inverted": {
-      "value": "#fdfe8b",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-standard": {
-      "value": "#000000",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-hover-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-hover-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-hover-standard": {
-      "value": "#24c1ff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-hover-inverted": {
-      "value": "#a6ecff",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-standard": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-inverted": {
-      "value": "#eaedfa",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-focus-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-focus-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-focus-standard": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
-    },
-    "background-color-focus-inverted": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-focus-standard": {
-      "value": "#535353",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-focus-inverted": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": " "
     },
     "sm-label": {
       "fontFamily": {
-        "value": "Graphik",
+        "value": "Arial",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "Medium",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -1777,7 +3055,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 10,
+        "value": 13,
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1799,7 +3077,7 @@
     },
     "md-label": {
       "fontFamily": {
-        "value": "Graphik",
+        "value": "Arial",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -1811,7 +3089,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 15,
+        "value": 18,
         "type": "fontSize"
       },
       "letterSpacing": {
@@ -1833,7 +3111,271 @@
     },
     "lg-label": {
       "fontFamily": {
-        "value": "Graphik",
+        "value": "Arial",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 22,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "xl-label": {
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 26,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    }
+  },
+  "brk-button-secondary": {
+    "sm": {
+      "height": {
+        "value": 30,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 15,
+        "type": "borderRadius"
+      },
+      "padding-horizontal": {
+        "value": 15,
+        "type": "spacing",
+        "description": " "
+      },
+      "icon-height": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 4,
+        "type": "spacing"
+      }
+    },
+    "md": {
+      "height": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 20,
+        "type": "borderRadius"
+      },
+      "padding-horizontal": {
+        "value": 20,
+        "type": "spacing",
+        "description": " "
+      },
+      "icon-height": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 6,
+        "type": "spacing"
+      }
+    },
+    "lg": {
+      "height": {
+        "value": 50,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 25,
+        "type": "borderRadius"
+      },
+      "padding-horizontal": {
+        "value": 25,
+        "type": "spacing",
+        "description": " "
+      },
+      "icon-height": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 8,
+        "type": "spacing"
+      }
+    },
+    "xl": {
+      "height": {
+        "value": 60,
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": 30,
+        "type": "borderRadius"
+      },
+      "padding-horizontal": {
+        "value": 30,
+        "type": "spacing",
+        "description": " "
+      },
+      "icon-height": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "icon-gap": {
+        "value": 10,
+        "type": "spacing"
+      }
+    },
+    "sm-label": {
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 11,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "md-label": {
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 15,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "lg-label": {
+      "fontFamily": {
+        "value": "Arial",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Bold",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 18,
+        "type": "fontSize"
+      },
+      "letterSpacing": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "xl-label": {
+      "fontFamily": {
+        "value": "Arial",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -1861,135 +3403,387 @@
         "type": "textDecoration"
       },
       "textCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "xl-label": {
-      "fontFamily": {
-        "value": "Graphik",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Bold",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "100%",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": 24,
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "2%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textDecoration": {
         "value": "none",
-        "type": "textDecoration"
-      },
-      "textCase": {
-        "value": "uppercase",
         "type": "textCase"
       }
     }
   },
-  "brk-button-secondary": {
-    "font-color-default-standard": {
-      "value": "#192872",
+  "brk-promo-secondary-standard": {
+    "pretitle-font-color": {
+      "value": "#000000",
       "type": "color",
       "description": " "
     },
-    "font-color-default-inverted": {
+    "heading-font-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "body-font-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-default-standard": {
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #ffffff00 0%, #ffffff 100%)",
+      "type": "color",
+      "description": " "
+    },
+    "box-shadow": {
+      "default": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 0,
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 0,
+          "y": 2,
+          "blur": 8,
+          "spread": 0,
+          "color": "#e6e6e6",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "brk-promo-secondary-inverted": {
+    "pretitle-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-default-inverted": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-standard": {
-      "value": "#192872",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-default-inverted": {
+    "heading-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "font-color-hover-standard": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-hover-inverted": {
+    "body-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-hover-standard": {
+    "background-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #00000000 0%, #000000 100%)",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-doc-card": {
+    "image-border-radius": {
+      "value": 16,
+      "type": "borderRadius",
+      "description": "NOTE : token de documentation, uniquement pour les designers."
+    }
+  },
+  "brk-promo-primary-inverted": {
+    "pretitle-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-hover-inverted": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-standard": {
-      "value": "#0b5db7",
-      "type": "color",
-      "description": " "
-    },
-    "border-color-hover-inverted": {
+    "heading-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "font-color-focus-standard": {
-      "value": "#1a1a1a",
-      "type": "color",
-      "description": " "
-    },
-    "font-color-focus-inverted": {
+    "body-font-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-focus-standard": {
+    "background-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #00000000 0%, #000000 100%)",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-promo-primary-standard": {
+    "pretitle-font-color": {
+      "value": "#060606",
+      "type": "color",
+      "description": " "
+    },
+    "heading-font-color": {
+      "value": "#060606",
+      "type": "color",
+      "description": " "
+    },
+    "body-font-color": {
+      "value": "#060606",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
     },
-    "background-color-focus-inverted": {
-      "value": "#1a1a1a",
+    "border-color": {
+      "value": "#e6e6e6",
       "type": "color",
       "description": " "
     },
-    "border-color-focus-standard": {
-      "value": "#535353",
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #ffffff00 0%, #ffffff 100%)",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-promo-tertiary-inverted": {
+    "pretitle-font-color": {
+      "value": "#000000",
       "type": "color",
       "description": " "
     },
-    "border-color-focus-inverted": {
+    "heading-font-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "body-font-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    },
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #00000000 0%, #000000 100%)",
+      "type": "color",
+      "description": " "
+    },
+    "frame-color": {
       "value": "#ffffff",
       "type": "color",
       "description": " "
+    }
+  },
+  "brk-promo-tertiary-standard": {
+    "pretitle-font-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "heading-font-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "body-font-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "background-color": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": " "
+    },
+    "border-color": {
+      "value": "#e6e6e6",
+      "type": "color",
+      "description": " "
+    },
+    "gradient-color": {
+      "value": "linear-gradient(180deg, #ffffff00 0%, #ffffff 100%)",
+      "type": "color",
+      "description": " "
+    },
+    "frame-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": " "
+    }
+  },
+  "brk-promo-tertiary": {
+    "sm": {
+      "image-height": {
+        "value": 172,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 43,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 15,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 4,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 12,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      },
+      "frame-padding-horizontal": {
+        "value": 10,
+        "type": "spacing",
+        "description": " "
+      },
+      "frame-padding-vertical": {
+        "value": 10,
+        "type": "spacing",
+        "description": " "
+      }
+    },
+    "xl": {
+      "image-height": {
+        "value": 568,
+        "type": "sizing",
+        "description": " NOTE : la valeur assignée à ce token est seulement pour Figma. À partir du dernier point de rupture, la composition de la promo secondaire devient horizontale. La hauteur de l'image sera déterminée alors par la hauteur du composant."
+      },
+      "gradient-height": {
+        "value": 142,
+        "type": "sizing",
+        "description": " "
+      },
+      "container-width": {
+        "value": 312,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      }
+    },
+    "md": {
+      "image-height": {
+        "value": 270,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 67.5,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 20,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 8,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      }
+    },
+    "lg": {
+      "image-height": {
+        "value": 300,
+        "type": "sizing",
+        "description": " "
+      },
+      "gradient-height": {
+        "value": 75,
+        "type": "sizing",
+        "description": " "
+      },
+      "padding-horizontal": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "padding-vertical": {
+        "value": 24,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-gap": {
+        "value": 16,
+        "type": "spacing",
+        "description": " "
+      },
+      "content-margin-bottom": {
+        "value": 16,
+        "type": "spacing",
+        "description": " NOTE : séparation entre les textes et le bouton de la promo."
+      }
     }
   },
   "brk-opt-color-neutral": {
@@ -2128,6 +3922,11 @@
       "value": "Roboto Condensed",
       "type": "fontFamilies",
       "description": "NOTE :  Police à utiliser pour la marque Mise-o-jeu"
+    },
+    "webfont": {
+      "value": "Arial",
+      "type": "fontFamilies",
+      "description": "NOTE : police standard à privilégier afin de suivre les bonnes pratiques d'écoconception web (Bonne pratique n° 32 : Favoriser les polices standards)."
     }
   },
   "brk-opt-line-height": {
@@ -2143,6 +3942,11 @@
     },
     "110%": {
       "value": "110%",
+      "type": "lineHeights",
+      "description": " "
+    },
+    "115%": {
+      "value": "115%",
       "type": "lineHeights",
       "description": " "
     },
@@ -2163,18 +3967,23 @@
       "type": "fontWeights",
       "description": " "
     },
-    "medium": {
-      "value": "Medium",
+    "bold": {
+      "value": "Bold",
       "type": "fontWeights",
       "description": " "
     },
-    "bold": {
-      "value": "Bold",
+    "black": {
+      "value": "Super",
       "type": "fontWeights",
       "description": " "
     }
   },
   "brk-opt-font-size": {
+    "7": {
+      "value": 7,
+      "type": "fontSizes",
+      "description": " "
+    },
     "8": {
       "value": 8,
       "type": "fontSizes",
@@ -2259,13 +4068,27 @@
       "type": "fontSizes",
       "description": " "
     },
+    "30": {
+      "value": 30,
+      "type": "fontSizes",
+      "description": " "
+    },
     "32": {
       "value": 32,
       "type": "fontSizes",
       "description": " "
     },
+    "34": {
+      "value": 34,
+      "type": "fontSizes"
+    },
     "36": {
       "value": 36,
+      "type": "fontSizes",
+      "description": " "
+    },
+    "40": {
+      "value": 40,
       "type": "fontSizes",
       "description": " "
     },
@@ -2369,6 +4192,11 @@
       "type": "sizing",
       "description": " "
     },
+    "7": {
+      "value": 7,
+      "type": "sizing",
+      "description": " "
+    },
     "8": {
       "value": 8,
       "type": "sizing",
@@ -2386,6 +4214,11 @@
     },
     "14": {
       "value": 14,
+      "type": "sizing",
+      "description": " "
+    },
+    "15": {
+      "value": 15,
       "type": "sizing",
       "description": " "
     },
@@ -2409,6 +4242,14 @@
       "type": "sizing",
       "description": " "
     },
+    "26": {
+      "value": 26,
+      "type": "sizing"
+    },
+    "27": {
+      "value": 27,
+      "type": "sizing"
+    },
     "28": {
       "value": 28,
       "type": "sizing",
@@ -2424,10 +4265,18 @@
       "type": "sizing",
       "description": " "
     },
+    "34": {
+      "value": 34,
+      "type": "sizing"
+    },
     "36": {
       "value": 36,
       "type": "sizing",
       "description": " "
+    },
+    "38": {
+      "value": 38,
+      "type": "sizing"
     },
     "40": {
       "value": 40,
@@ -2448,13 +4297,34 @@
       "value": 50,
       "type": "sizing"
     },
+    "52": {
+      "value": 52,
+      "type": "sizing"
+    },
     "60": {
       "value": 60,
       "type": "sizing",
       "description": " "
     },
+    "62": {
+      "value": 62,
+      "type": "sizing"
+    },
+    "64": {
+      "value": 64,
+      "type": "sizing"
+    },
     "72": {
       "value": 72,
+      "type": "sizing",
+      "description": " "
+    },
+    "76": {
+      "value": 76,
+      "type": "sizing"
+    },
+    "172": {
+      "value": 172,
       "type": "sizing",
       "description": " "
     },
@@ -2468,18 +4338,50 @@
       "type": "sizing",
       "description": " "
     },
+    "300": {
+      "value": 300,
+      "type": "sizing",
+      "description": " "
+    },
     "320": {
       "value": 320,
       "type": "sizing",
       "description": " "
     },
-    "960": {
-      "value": 960,
-      "type": "sizing"
+    "360": {
+      "value": 360,
+      "type": "sizing",
+      "description": " "
+    }
+  },
+  "brk-opt-breakpoint": {
+    "sm": {
+      "230": {
+        "value": 230,
+        "type": "sizing",
+        "description": " "
+      }
     },
-    "1920": {
-      "value": 1920,
-      "type": "sizing"
+    "md": {
+      "450": {
+        "value": 450,
+        "type": "sizing",
+        "description": " "
+      }
+    },
+    "lg": {
+      "630": {
+        "value": 630,
+        "type": "sizing",
+        "description": " "
+      }
+    },
+    "xl": {
+      "780": {
+        "value": 780,
+        "type": "sizing",
+        "description": " "
+      }
     }
   },
   "brk-opt-border-radius": {
@@ -2502,6 +4404,10 @@
       "value": 4,
       "type": "borderRadius",
       "description": " "
+    },
+    "6": {
+      "value": 6,
+      "type": "borderRadius"
     },
     "8": {
       "value": 8,
@@ -2580,8 +4486,8 @@
     },
     "solid-standard": {
       "value": {
-        "x": 3,
-        "y": 3,
+        "x": 2,
+        "y": 2,
         "blur": 0,
         "spread": 0,
         "color": "#000000",
@@ -2592,8 +4498,8 @@
     },
     "solid-inverted": {
       "value": {
-        "x": 3,
-        "y": 3,
+        "x": 2,
+        "y": 2,
         "blur": 0,
         "spread": 0,
         "color": "#ffffff",
@@ -2669,6 +4575,10 @@
       "type": "spacing",
       "description": " "
     },
+    "22": {
+      "value": 22,
+      "type": "spacing"
+    },
     "24": {
       "value": 24,
       "type": "spacing",
@@ -2687,6 +4597,10 @@
       "value": 32,
       "type": "spacing",
       "description": " "
+    },
+    "36": {
+      "value": 36,
+      "type": "spacing"
     },
     "40": {
       "value": 40,
@@ -2731,6 +4645,11 @@
       "value": "#7B61FF",
       "type": "color",
       "description": "NOTE :  couleur accent principale utilisée pour la documentation."
+    },
+    "lightest": {
+      "value": "#eeebff",
+      "type": "color",
+      "description": "NOTE :  couleur de base utilisée pour la documentation."
     }
   }
 }
